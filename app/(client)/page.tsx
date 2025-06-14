@@ -1,7 +1,9 @@
+import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
 import React from "react";
 
 export default function HomePage() {
-  return <div className="max-w-[1152px] mx-auto px-4">
+  return <div className="">
+    <HeroSection />
     <div id="why-us" className="h-screen">
         <div>
             <h1>Why us</h1>
