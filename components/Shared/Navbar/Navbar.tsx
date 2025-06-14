@@ -14,6 +14,7 @@ const navLinks = [
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -23,14 +24,45 @@ const Navbar = () => {
       }
     };
 
+    const handleScroll = () => {
+      const sections = navLinks.map(link => link.href.substring(1));
+      const scrollPosition = window.scrollY + 100; // Offset for better UX
+
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const { offsetTop, offsetHeight } = element;
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(section);
+            break;
+          }
+        }
+      }
+    };
+
     document.addEventListener("mousedown", handleClickOutside);
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial check
+
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetId = href.substring(1);
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setActiveSection(targetId);
+    }
+    setMenuOpen(false);
+  };
+
   return (
-    <nav className="w-full">
+    <nav className="w-full fixed top-0 left-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-[1152px] mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -49,7 +81,12 @@ const Navbar = () => {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-black text-base hover:text-green-600 transition font-medium"
+                onClick={(e) => handleNavClick(e, link.href)}
+                className={`text-black text-base transition font-medium ${
+                  activeSection === link.href.substring(1)
+                    ? "text-green-600 font-semibold"
+                    : "hover:text-green-600"
+                }`}
               >
                 {link.label}
               </a>
@@ -95,8 +132,12 @@ const Navbar = () => {
             <a
               key={link.label}
               href={link.href}
-              className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium"
-              onClick={() => setMenuOpen(false)}
+              onClick={(e) => handleNavClick(e, link.href)}
+              className={`w-full text-black bg-white rounded-full text-center px-4 py-2 transition font-medium ${
+                activeSection === link.href.substring(1)
+                  ? "text-green-600 font-semibold"
+                  : "hover:text-green-600"
+              }`}
             >
               {link.label}
             </a>
