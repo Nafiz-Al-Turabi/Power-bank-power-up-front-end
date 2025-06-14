@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
 import logoMobile from "@/public/logo-mobile.svg";
@@ -14,6 +14,20 @@ const navLinks = [
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="w-full">
@@ -42,20 +56,16 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Right Side */}
           <div className="hidden lg:flex items-center space-x-4">
-            {/* Language Switcher */}
             <div className="flex items-center bg-black rounded-full px-4 py-2 text-sm font-medium">
               <span className="text-green-500 mr-1">EN</span>
               <span className="text-white/60">PL</span>
             </div>
-            {/* Contact Button */}
             <button className="bg-black text-white rounded-full px-6 py-2 font-medium hover:bg-green-600 transition">
               Contact us
             </button>
           </div>
 
-          {/* Mobile Hamburger */}
           <div className="lg:hidden flex items-center">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
@@ -69,29 +79,34 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="lg:hidden absolute top-20 left-0 w-full bg-[#470974] px-4 py-4">
-          <button className="w-full text-white bg-[#141313] rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium mb-4">
-            Download app
-          </button>
-          <div className="flex flex-col items-center space-y-4">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium"
-                onClick={() => setMenuOpen(false)}
-              >
-                {link.label}
-              </a>
-            ))}
+      <div
+        ref={menuRef}
+        className={`lg:hidden absolute top-20 left-0 w-full bg-[#470974] px-4 py-4 transform transition-all duration-300 ease-in-out ${
+          menuOpen
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 -translate-y-4 pointer-events-none"
+        }`}
+      >
+        <button className="w-full text-white bg-[#141313] rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium mb-4">
+          Download app
+        </button>
+        <div className="flex flex-col items-center space-y-4">
+          {navLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium"
+              onClick={() => setMenuOpen(false)}
+            >
+              {link.label}
+            </a>
+          ))}
 
-            <button className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium">
-              Contact us
-            </button>
-          </div>
+          <button className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium">
+            Contact us
+          </button>
         </div>
-      )}
+      </div>
     </nav>
   );
 };
