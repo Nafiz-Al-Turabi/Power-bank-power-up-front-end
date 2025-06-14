@@ -1,4 +1,5 @@
 import BecomePartner from "@/components/PageComponents/BecomePartner/BecomePartner";
+import Gallery from "@/components/PageComponents/Home/Gallery/Gallery";
 import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
 import HowDoesItWork from "@/components/PageComponents/Home/HowDoesItWork/HowDoesItWork";
 import Pricing from "@/components/PageComponents/Home/Pricing/Pricing";
@@ -20,6 +21,9 @@ export default function HomePage() {
       </div>
       <div id="become-a-partner" className="scroll-mt-24">
         <BecomePartner />
+      </div>
+      <div id="gallery" className="scroll-mt-24">
+        <Gallery />
       </div>
     </div>
   );
