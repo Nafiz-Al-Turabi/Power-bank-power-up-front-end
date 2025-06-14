@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "@/public/logo.svg";
 import logoMobile from "@/public/logo-mobile.svg";
 import MenuIcon from "@/components/icons/MenuIcon";
+import Language from "@/components/PageComponents/Others/Language";
 
 const navLinks = [
   { label: "Why us", href: "#why-us" },
@@ -25,14 +26,17 @@ const Navbar = () => {
     };
 
     const handleScroll = () => {
-      const sections = navLinks.map(link => link.href.substring(1));
+      const sections = navLinks.map((link) => link.href.substring(1));
       const scrollPosition = window.scrollY + 100; // Offset for better UX
 
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
           const { offsetTop, offsetHeight } = element;
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+          if (
+            scrollPosition >= offsetTop &&
+            scrollPosition < offsetTop + offsetHeight
+          ) {
             setActiveSection(section);
             break;
           }
@@ -50,7 +54,10 @@ const Navbar = () => {
     };
   }, []);
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const handleNavClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
     e.preventDefault();
     const targetId = href.substring(1);
     const element = document.getElementById(targetId);
@@ -65,7 +72,7 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 left-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-[1152px] mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */} 
+          {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <span className="hidden sm:block">
               <Image src={logo} alt="PowerUp Logo" height={32} />
@@ -84,7 +91,7 @@ const Navbar = () => {
                 onClick={(e) => handleNavClick(e, link.href)}
                 className={`text-black text-base transition font-medium ${
                   activeSection === link.href.substring(1)
-                    ? "text-green-600 font-semibold"
+                    ? "text-green-600"
                     : "hover:text-green-600"
                 }`}
               >
@@ -94,16 +101,16 @@ const Navbar = () => {
           </div>
 
           <div className="hidden lg:flex items-center space-x-4">
-            <div className="flex items-center bg-[#141313] rounded-full px-4 py-2 text-sm font-medium">
-              <span className="text-green-500 mr-1">EN</span>
-              <span className="text-white/60">PL</span>
-            </div>
-            <button className="bg-[#141313] text-white rounded-full px-6 py-2 font-medium hover:bg-green-600 transition">
+            <Language />
+            <button className="bg-[#141313] text-white rounded-full px-6 py-2 font-medium hover:bg-[#353535] transition cursor-pointer">
               Contact us
             </button>
           </div>
 
-          <div className="lg:hidden flex items-center">
+          <div className="lg:hidden flex items-center gap-4">
+            <div>
+              <Language />
+            </div>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="flex items-center gap-2 text-white bg-[#18131b] rounded-full p-2 focus:outline-none"

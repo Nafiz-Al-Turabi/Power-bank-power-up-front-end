@@ -22,7 +22,7 @@ const HeroSection = () => {
           need to stop. Just power up and keep going.
         </p>
         <div className="flex justify-center items-center gap-4 mt-8 relative z-10">
-          <button className="bg-[#141313] text-white px-4 py-2.5 rounded-full cursor-pointer">
+          <button className="bg-[#141313] text-white px-4 py-2.5 rounded-full hover:bg-[#353535] transition cursor-pointer">
             Download app
           </button>
           <Image src={appStore} alt="hero" />
