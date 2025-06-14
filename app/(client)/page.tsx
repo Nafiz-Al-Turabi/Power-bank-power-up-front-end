@@ -11,7 +11,7 @@ export default function HomePage() {
       <div id="why-us" className="scroll-mt-24">
         <WhyUs />
       </div>
-      <div id="how-does-it-work" className="scroll-mt-24">
+      <div id="how-does-it-work" className="-scroll-mt-28">
         <HowDoesItWork />
       </div>
       <div id="pricing" className="scroll-mt-24">
