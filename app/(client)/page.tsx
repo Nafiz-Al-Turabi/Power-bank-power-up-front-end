@@ -1,4 +1,5 @@
 import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
+import HowDoesItWork from "@/components/PageComponents/Home/HowDoesItWork/HowDoesItWork";
 import WhyUs from "@/components/PageComponents/Home/WhyUs/WhyUs";
 import React from "react";
 
@@ -9,9 +10,7 @@ export default function HomePage() {
         <WhyUs />
     </div>
     <div id="how-does-it-work" className="">
-        <div>
-            <h1>How does it work</h1>
-        </div>
+        <HowDoesItWork />
     </div>
     <div id="become-a-partner" className="">
             <div>

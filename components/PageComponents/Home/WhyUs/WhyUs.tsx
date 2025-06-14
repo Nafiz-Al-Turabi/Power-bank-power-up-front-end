@@ -1,8 +1,10 @@
+import Image from "next/image";
 import React from "react";
+import whyUs from "@/public/mobile.png";
 
 const WhyUs = () => {
   return (
-    <div className="bg-[#f1f1f4] pb-[300px] border-b border-[#6A0DAD]">
+    <div className="bg-[#f1f1f4] pb-20 md:pb-40 lg:pb-[300px] border-b border-[#6A0DAD] relative">
       <div className="max-w-[1152px] mx-auto px-4">
         <h1 className="text-2xl md:text-[3.75rem] font-bold title-font text-center w-[16ch] md:w-[16ch] mx-auto">
           <span className="text-[#6A0DAD]">Power</span> that fits everyone
@@ -14,7 +16,8 @@ const WhyUs = () => {
           are fast, long-lasting, work with every phone, and they are reusable
           too. Grab one, charge up, drop it off. Simple as that.
         </p>
-      </div>
+        </div>
+        <Image src={whyUs}  alt="why-us" className="absolute -bottom-[150px] md:-bottom-[300px] lg:-bottom-[400px] z-10 left-1/2 -translate-x-1/2 " />
     </div>
   );
 };
