@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const BecomePartner = () => {
     return (
-        <div className="bg-[#f6f6f6] flex items-center justify-center pt-10 pb-30">
+        <div className="bg-[#f6f6f6] flex items-center justify-center pt-10 pb-15 md:pb-30">
             <div className="max-w-[1152px] w-full flex flex-col md:flex-row items-center md:items-stretch bg-[#f6f6f6] mx-auto px-4">
                 {/* Left: Image */}
                 <div className="hidden md:flex-1 md:flex items-center justify-center mb-8 md:mb-0">
@@ -12,7 +12,7 @@ const BecomePartner = () => {
                 </div>
                 {/* Right: Card */}
                 <div className="flex-1 flex items-center justify-center">
-                    <div className="bg-white rounded-3xl shadow-md p-8 w-full max-w-md flex flex-col ">
+                    <div className="bg-white rounded-3xl shadow-md p-8 w-full flex flex-col ">
                         <h2 className="text-4xl lg:text-5xl font-bold text-center mb-4 title-font">Want to install<br />station at your<br />place?</h2>
                         <p className="text-gray-500 text-center mb-6">Ever had someone ask to charge their phone? Now you got power for them. We'll handle setup. You just get happier customers, just at no cost.</p>
                         <input

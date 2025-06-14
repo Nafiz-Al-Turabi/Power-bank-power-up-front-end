@@ -1,4 +1,4 @@
-import BecomePartner from "@/components/PageComponents/BecomePartner/BecomePartner";
+import BecomePartner from "@/components/PageComponents/Home/HowDoesItWork/BecomePartner/BecomePartner";
 import Gallery from "@/components/PageComponents/Home/Gallery/Gallery";
 import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
 import HowDoesItWork from "@/components/PageComponents/Home/HowDoesItWork/HowDoesItWork";
@@ -13,7 +13,7 @@ export default function HomePage() {
       <div id="why-us" className="scroll-mt-24">
         <WhyUs />
       </div>
-      <div id="how-does-it-work" className="-scroll-mt-28">
+      <div id="how-does-it-work" className="-scroll-mt-16 md:-scroll-mt-28">
         <HowDoesItWork />
       </div>
       <div id="pricing" className="scroll-mt-24">

@@ -5,14 +5,14 @@ import FAQ from "../../Others/FAQ/FAQ";
 
 const HowDoesItWork = () => {
   return (
-    <div className="bg-[#f6f6f6] mt-20 md:mt-40 lg:mt-61 border-t border-[#6A0DAD] pt-20 md:pt-40 lg:pt-64 relative">
+    <div className="bg-[#f6f6f6] mt-20 md:mt-40 lg:mt-61 border-t border-[#6A0DAD] pt-40 lg:pt-64 relative">
       <Image
         src={howDoesItWork}
         alt="how-does-it-work"
-        className="absolute top-0 right-0"
+        className="absolute top-0 right-0 "
       />
       <div className="max-w-[1152px] mx-auto px-4">
-        <h1 className="text-2xl md:text-[3.75rem] font-bold title-font text-center w-[16ch] lg:w-[20ch] xl:w-[26ch] mx-auto">
+        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-[16ch] lg:w-[20ch] xl:w-[26ch] mx-auto">
           <span className="text-[#6A0DAD]">How</span> does it work? <br />{" "}
           Easier than texting at 1% around.
         </h1>
@@ -20,7 +20,7 @@ const HowDoesItWork = () => {
           Getting started takes less than a minute. Follow the steps and power
           up.
         </p>
-        <div className="py-20">
+        <div className="py-20 relative z-10">
           <FAQ />
         </div>
       </div>

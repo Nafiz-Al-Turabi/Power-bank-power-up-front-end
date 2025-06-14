@@ -65,7 +65,7 @@ const Navbar = () => {
     <nav className="w-full fixed top-0 left-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
       <div className="max-w-[1152px] mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* Logo */} 
           <div className="flex-shrink-0 flex items-center">
             <span className="hidden sm:block">
               <Image src={logo} alt="PowerUp Logo" height={32} />
@@ -94,11 +94,11 @@ const Navbar = () => {
           </div>
 
           <div className="hidden lg:flex items-center space-x-4">
-            <div className="flex items-center bg-black rounded-full px-4 py-2 text-sm font-medium">
+            <div className="flex items-center bg-[#141313] rounded-full px-4 py-2 text-sm font-medium">
               <span className="text-green-500 mr-1">EN</span>
               <span className="text-white/60">PL</span>
             </div>
-            <button className="bg-black text-white rounded-full px-6 py-2 font-medium hover:bg-green-600 transition">
+            <button className="bg-[#141313] text-white rounded-full px-6 py-2 font-medium hover:bg-green-600 transition">
               Contact us
             </button>
           </div>
@@ -106,7 +106,7 @@ const Navbar = () => {
           <div className="lg:hidden flex items-center">
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="flex items-center gap-2 text-white bg-black rounded-full p-2 focus:outline-none"
+              className="flex items-center gap-2 text-white bg-[#18131b] rounded-full p-2 focus:outline-none"
               aria-label="Toggle menu"
             >
               Menu <MenuIcon />
@@ -133,7 +133,7 @@ const Navbar = () => {
               key={link.label}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className={`w-full text-black bg-white rounded-full text-center px-4 py-2 transition font-medium ${
+              className={`w-full text-black hover:bg-[#EAEAEA] bg-white rounded-full text-center px-4 py-2 transition font-medium ${
                 activeSection === link.href.substring(1)
                   ? "text-green-600 font-semibold"
                   : "hover:text-green-600"
