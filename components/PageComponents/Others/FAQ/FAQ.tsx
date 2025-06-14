@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import image from "@/public/images/Gallery/gallery.jpg";
 import Image from "next/image";
 import { AiOutlinePlus } from "react-icons/ai";
 

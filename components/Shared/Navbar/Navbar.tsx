@@ -80,12 +80,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <span className="hidden sm:block">
+            <a href="#" className="hidden sm:block">
               <Image src={logo} alt="PowerUp Logo" height={32} />
-            </span>
-            <span className="sm:hidden">
+            </a>
+            <a href="#" className="sm:hidden">
               <Image src={logoMobile} alt="PowerUp Logo" height={32} />
-            </span>
+            </a>
           </div>
 
           {/* Desktop Nav */}
