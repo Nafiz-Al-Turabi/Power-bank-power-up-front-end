@@ -6,12 +6,12 @@ import goopowerbankglePlay from "@/public/images/hero/powerbank.png";
 
 const HeroSection = () => {
   return (
-    <div className=" bg-[#f1f1f4]">
+    <div className=" bg-[#f1f1f4] pt-10">
       <div
         className="max-w-[1152px] mx-auto px-4 bg-no-repeat bg-contain bg-center pt-12 md:pt-15"
         style={{ backgroundImage: `url(${heroBg.src})` }}
       >
-        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-[20ch] lg:w-[25ch] mx-auto">
+        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-[20ch] lg:w-[25ch] mx-auto md:mt-12">
           Charging just got smarter.{" "}
           <span className="text-[#6A0DAD]">Cracow,</span> meet convenience.
         </h1>

@@ -16,6 +16,7 @@ const navLinks = [
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+  const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -28,6 +29,9 @@ const Navbar = () => {
     const handleScroll = () => {
       const sections = navLinks.map((link) => link.href.substring(1));
       const scrollPosition = window.scrollY + 100; // Offset for better UX
+
+      // Check if scrolled past threshold
+      setIsScrolled(window.scrollY > 20);
 
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -69,7 +73,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full fixed top-0 left-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
+    }`}>
       <div className="max-w-[1152px] mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
