@@ -1,26 +1,27 @@
 import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
 import HowDoesItWork from "@/components/PageComponents/Home/HowDoesItWork/HowDoesItWork";
+import Pricing from "@/components/PageComponents/Home/Pricing/Pricing";
 import WhyUs from "@/components/PageComponents/Home/WhyUs/WhyUs";
 import React from "react";
 
 export default function HomePage() {
-  return <div className="">
-    <HeroSection />
-    <div id="why-us" className="">
+  return (
+    <div className="">
+      <HeroSection />
+      <div id="why-us" className="scroll-mt-24">
         <WhyUs />
-    </div>
-    <div id="how-does-it-work" className="">
+      </div>
+      <div id="how-does-it-work" className="scroll-mt-24">
         <HowDoesItWork />
-    </div>
-    <div id="become-a-partner" className="">
-            <div>
-                <h1>Become a partner</h1>
-            </div>
-    </div>
-    <div id="pricing" className="">
+      </div>
+      <div id="pricing" className="scroll-mt-24">
+        <Pricing />
+      </div>
+      <div id="become-a-partner" className="scroll-mt-24">
         <div>
-            <h1>Pricing</h1>
+          <h1>Become a partner</h1>
         </div>
+      </div>
     </div>
-  </div>;
+  );
 }

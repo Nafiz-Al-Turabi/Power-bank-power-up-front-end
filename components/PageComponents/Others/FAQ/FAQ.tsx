@@ -30,10 +30,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between gap-4 bg-white rounded-lg p-20 title-font">
-      <div className="w-full md:w-1/2 space-y-4">
+    <div className="flex flex-col md:flex-row justify-between gap-4 bg-white rounded-lg p-20 title-font ">
+      <div className="w-full md:w-1/2 space-y-4 overflow-hidden h-[400px]">
         {faq.map((item, index) => (
-          <div key={index} className="border-b border-[#6b6a6a66]">
+          <div key={index} className="border-b border-[#6b6a6a66]  ">
             <button
               className="flex justify-between items-center w-full py-4 text-left font-semibold focus:outline-none"
               onClick={() => toggleFAQ(index)}
@@ -52,7 +52,7 @@ const FAQ = () => {
                 overflow-hidden transition-all duration-300
                  ${
                    openIndex === index
-                     ? "max-h-[1000px] opacity-100"
+                     ? "max-h-[350px] opacity-100"
                      : "max-h-0 opacity-0"
                  }
                             `}
