@@ -6,10 +6,10 @@ import logoMobile from "@/public/logo-mobile.svg";
 import MenuIcon from "@/components/icons/MenuIcon";
 
 const navLinks = [
-  { label: "Why us", href: "#" },
-  { label: "How does it work", href: "#" },
-  { label: "Become a partner", href: "#" },
-  { label: "Pricing", href: "#" },
+  { label: "Why us", href: "#why-us" },
+  { label: "How does it work", href: "#how-does-it-work" },
+  { label: "Become a partner", href: "#become-a-partner" },
+  { label: "Pricing", href: "#pricing" },
 ];
 
 const Navbar = () => {
