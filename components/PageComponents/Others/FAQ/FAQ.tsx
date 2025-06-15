@@ -28,7 +28,11 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+    if (openIndex === index) {
+      setOpenIndex((index + 1) % faq.length);
+    } else {
+      setOpenIndex(index);
+    }
   };
 
   return (
