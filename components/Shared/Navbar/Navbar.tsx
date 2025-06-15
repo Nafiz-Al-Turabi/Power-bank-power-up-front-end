@@ -81,10 +81,10 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="hidden sm:block">
-              <Image src={logo} alt="PowerUp Logo" height={32} />
+              <Image src={logo} alt="PowerUp Logo" height={24} />
             </a>
             <a href="#" className="sm:hidden">
-              <Image src={logoMobile} alt="PowerUp Logo" height={32} />
+              <Image src={logoMobile} alt="PowerUp Logo" height={24} />
             </a>
           </div>
 
