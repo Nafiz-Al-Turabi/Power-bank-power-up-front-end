@@ -28,9 +28,8 @@ const Navbar = () => {
 
     const handleScroll = () => {
       const sections = navLinks.map((link) => link.href.substring(1));
-      const scrollPosition = window.scrollY + 100; // Offset for better UX
+      const scrollPosition = window.scrollY + 100; 
 
-      // Check if scrolled past threshold
       setIsScrolled(window.scrollY > 20);
 
       for (const section of sections) {
