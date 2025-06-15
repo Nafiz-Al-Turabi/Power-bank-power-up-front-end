@@ -91,18 +91,20 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <div className="hidden lg:flex flex-1 items-center justify-center space-x-8">
             {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                onClick={(e) => handleNavClick(e, link.href)}
-                className={`text-black text-base transition font-medium ${
-                  activeSection === link.href.substring(1)
-                    ? "text-green-600"
-                    : "hover:text-green-600"
-                }`}
-              >
-                {link.label}
-              </a>
+              link.label && (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  onClick={(e) => handleNavClick(e, link.href)}
+                  className={`text-black text-base transition font-medium ${
+                    activeSection === link.href.substring(1)
+                      ? "text-green-600"
+                      : "hover:text-green-600"
+                  }`}
+                >
+                  {link.label}
+                </a>
+              )
             ))}
           </div>
 
@@ -142,18 +144,20 @@ const Navbar = () => {
         </button>
         <div className="flex flex-col items-center space-y-4">
           {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              onClick={(e) => handleNavClick(e, link.href)}
-              className={`w-full text-black hover:bg-[#EAEAEA] bg-white rounded-full text-center px-4 py-2 transition font-medium ${
-                activeSection === link.href.substring(1)
-                  ? "text-green-600 font-semibold"
-                  : "hover:text-green-600"
-              }`}
-            >
-              {link.label}
-            </a>
+            link.label && (
+              <a
+                key={link.label}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
+                className={`w-full text-black hover:bg-[#EAEAEA] bg-white rounded-full text-center px-4 py-2 transition font-medium ${
+                  activeSection === link.href.substring(1)
+                    ? "text-green-600 font-semibold"
+                    : "hover:text-green-600"
+                }`}
+              >
+                {link.label}
+              </a>
+            )
           ))}
 
           <button className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium">
