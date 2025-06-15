@@ -20,7 +20,7 @@ const HowDoesItWork = () => {
           Getting started takes less than a minute. Follow the steps and power
           up.
         </p>
-        <div className="py-[60px] md:py-20 relative z-10">
+        <div className="py-[60px] md:pt-20 md:pb-30 relative z-10">
           <FAQ />
         </div>
       </div>
