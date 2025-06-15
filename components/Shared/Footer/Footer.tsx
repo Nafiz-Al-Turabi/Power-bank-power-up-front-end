@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
       <div
-        className="bg-black bg-cover md:bg-contain bg-center bg-no-repeat"
+        className="bg-black bg-cover xl:bg-contain 2xl:bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <div className="max-w-[1152px] mx-auto px-4 pt-15 pb-4">
