@@ -1,4 +1,4 @@
-import BecomePartner from "@/components/PageComponents/Home/HowDoesItWork/BecomePartner/BecomePartner";
+import BecomePartner from "@/components/PageComponents/Home/BecomePartner/BecomePartner";
 import Gallery from "@/components/PageComponents/Home/Gallery/Gallery";
 import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
 import HowDoesItWork from "@/components/PageComponents/Home/HowDoesItWork/HowDoesItWork";

@@ -12,7 +12,7 @@ const BecomePartner = () => {
                 </div>
                 {/* Right: Card */}
                 <div className="flex-1 flex items-center justify-center">
-                    <div className="bg-white rounded-3xl shadow-md p-8 w-full flex flex-col ">
+                    <div className="bg-white rounded-3xl  shadow-md p-8 w-full flex flex-col ">
                         <h2 className="text-4xl lg:text-5xl font-bold text-center mb-4 title-font">Want to install<br />station at your<br />place?</h2>
                         <p className="text-gray-500 text-center mb-6">Ever had someone ask to charge their phone? Now you got power for them. We'll handle setup. You just get happier customers, just at no cost.</p>
                         <input

@@ -12,11 +12,11 @@ const HowDoesItWork = () => {
         className="absolute top-0 right-0 "
       />
       <div className="max-w-[1152px] mx-auto px-4">
-        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-[16ch] lg:w-[20ch] xl:w-[26ch] mx-auto">
+        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-[16ch] lg:w-[20ch] xl:w-[26ch] mx-auto leading-[72px]">
           <span className="text-[#6A0DAD]">How</span> does it work? <br />{" "}
           Easier than texting at 1% around.
         </h1>
-        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto">
+        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto leading-[26px]">
           Getting started takes less than a minute. Follow the steps and power
           up.
         </p>

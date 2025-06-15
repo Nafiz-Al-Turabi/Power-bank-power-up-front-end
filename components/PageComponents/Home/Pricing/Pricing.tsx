@@ -6,12 +6,12 @@ const Pricing = () => {
     <div className="bg-[#f6f6f6]">
       <div className="max-w-[1152px] mx-auto px-4">
         <div>
-          <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center lg:w-[25ch] xl:w-[26ch] mx-auto">
+          <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center lg:w-[25ch] xl:w-[26ch] mx-auto leading-[72px]">
             <span className="text-[#6A0DAD]">Big</span> power.{" "}
             <span className="text-[#6A0DAD]">Tiny</span>{" "}
             price. <br /> All across Cracow.
           </h1>
-          <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto">
+          <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto leading-[26px]">
             We designed our power banks for real life , the kind where your
             battery is low, your charger is at home, and your day’s still going.
             They are fast, long-lasting, work with every phone, and they are
