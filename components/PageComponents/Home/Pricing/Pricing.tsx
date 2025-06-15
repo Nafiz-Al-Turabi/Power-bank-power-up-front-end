@@ -11,7 +11,7 @@ const Pricing = () => {
             <span className="text-[#6A0DAD]">Tiny</span>{" "}
             price. <br /> All across Cracow.
           </h1>
-          <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto leading-[26px]">
+          <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px]">
             We designed our power banks for real life , the kind where your
             battery is low, your charger is at home, and your day’s still going.
             They are fast, long-lasting, work with every phone, and they are

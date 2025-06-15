@@ -11,11 +11,11 @@ const HeroSection = () => {
         className="max-w-[1152px] mx-auto px-4 bg-no-repeat bg-contain bg-center pt-12 md:pt-15"
         style={{ backgroundImage: `url(${heroBg.src})` }}
       >
-        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[25ch] mx-auto md:mt-12 leading-[72px]">
+        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[25ch] mx-auto md:mt-12 lg:leading-[72px]">
           Charging just got smarter.{" "}
           <span className="text-[#6A0DAD]">Cracow,</span> meet convenience.
         </h1>
-        <p className="text-baselg:text-lg text-center mt-4 lg:mt-6 leading-[26px] w-full lg:w-[72ch] mx-auto">
+        <p className="text-baselg:text-lg text-center mt-4 lg:mt-6 lg:leading-[26px] w-full lg:w-[72ch] mx-auto">
           We’ve all been there—low battery, no charger, nowhere to plug in.
           That’s why we created a network of power banks you can grab on the go.
           At restaurants, cafés, gyms. Find us wherever your day takes you. No
