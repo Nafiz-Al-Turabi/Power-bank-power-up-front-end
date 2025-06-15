@@ -25,7 +25,7 @@ const BecomePartner = () => {
                             placeholder="Contact Number"
                             className="w-full mb-6 px-4 py-3 bg-[#f6f6f6] border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                         />
-                        <button className="w-fit bg-black md:bg-[#6A0DAD] text-white py-2.5 px-6 rounded-full font-semibold  transition hover:bg-[#353535] duration-300 cursor-pointer ">Send a request</button>
+                        <button className="w-fit bg-black md:bg-[#141313] text-white py-2.5 px-6 rounded-full font-semibold  transition hover:bg-[#353535] duration-300 cursor-pointer ">Send a request</button>
                     </div>
                 </div>
             </div>
