@@ -32,15 +32,20 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between gap-20 bg-white rounded-lg p-4 md:p-10 lg:p-20 title-font ">
-      <div className="w-full md:w-1/2 space-y-4">
+    <div className="flex flex-col md:flex-row justify-between gap-6 lg:gap-20 bg-white rounded-lg p-4 md:p-6 lg:p-20 title-font ">
+      <div className="w-full lg:w-1/2 space-y-4">
         {faq.map((item, index) => (
-          <div key={index} className="border-b border-[#6b6a6a66]  ">
+          <div
+            key={index}
+            className={`border-b ${index === 2 ? "border-none": "border-[#6b6a6a66]"}`}
+          >
             <button
               className="flex justify-between items-center w-full py-4 text-left font-semibold focus:outline-none"
               onClick={() => toggleFAQ(index)}
             >
-              <span className="text-lg lg:text-2xl text-[#000000DE]">{item.question}</span>
+              <span className="text-lg lg:text-2xl text-[#000000DE]">
+                {item.question}
+              </span>
               <span>
                 <AiOutlinePlus
                   className={`text-lg lg:text-2xl text-[#000000DE] duration-300 ${
@@ -59,9 +64,17 @@ const FAQ = () => {
                  }
                             `}
             >
-              <p className="p-2 text-base lg:text-lg text-[#000000DE]">{item.answer}</p>
-              <div className="md:hidden">
-                <Image src={item.image} alt="faq" width={398} height={501} />
+              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 ">
+                {item.answer}
+              </p>
+              <div className="md:hidden py-4 mt-4 border-t border-[#6b6a6a66]">
+                <Image
+                  src={item.image}
+                  alt="faq"
+                  width={398}
+                  height={501}
+                  className="rounded-[20px] "
+                />
               </div>
             </div>
           </div>
@@ -74,7 +87,7 @@ const FAQ = () => {
             width={398}
             height={501}
             alt="faq"
-            className="rounded-[20px] h-[500px] w-full object-cover"
+            className="rounded-[20px] md:w-[390px] md:h-[350px] lg:w-[398px] lg:h-[501px] w-full object-cover"
           />
         )}
       </div>
