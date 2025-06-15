@@ -9,7 +9,9 @@ import React from "react";
 export default function HomePage() {
   return (
     <div className="">
-      <HeroSection />
+      <div id="home">
+        <HeroSection />
+      </div>
       <div id="why-us" className="scroll-mt-24">
         <WhyUs />
       </div>

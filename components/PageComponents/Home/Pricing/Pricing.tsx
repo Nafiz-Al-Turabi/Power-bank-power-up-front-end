@@ -18,7 +18,7 @@ const Pricing = () => {
             reusable too. Grab one, charge up, drop it off. Simple as that.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-15 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-15 md:py-20 lg:px-8">
           <div className="bg-black h-[266px] text-white flex flex-col justify-center items-center rounded-2xl relative">
             <div className="text-center">
               <p className="text-base md:text-[1.375rem] font-bold">Standard</p>

@@ -7,10 +7,11 @@ import MenuIcon from "@/components/icons/MenuIcon";
 import Language from "@/components/PageComponents/Others/Language";
 
 const navLinks = [
+  { label: "", href: "#home" },
   { label: "Why us", href: "#why-us" },
   { label: "How does it work", href: "#how-does-it-work" },
-  { label: "Become a partner", href: "#become-a-partner" },
   { label: "Pricing", href: "#pricing" },
+  { label: "Become a partner", href: "#become-a-partner" },
 ];
 
 const Navbar = () => {
