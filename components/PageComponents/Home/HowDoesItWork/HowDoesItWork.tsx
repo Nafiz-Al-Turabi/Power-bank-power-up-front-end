@@ -12,7 +12,7 @@ const HowDoesItWork = () => {
         className="absolute top-0 right-0 "
       />
       <div className="max-w-[1152px] mx-auto px-4">
-        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[20ch] xl:w-[26ch] mx-auto lg:leading-[72px]">
+        <h1 className="text-[#202020] text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[20ch] xl:w-[26ch] mx-auto lg:leading-[72px]">
           <span className="text-[#6A0DAD]">How</span> does it work? <br />{" "}
           Easier than texting at 1%.
         </h1>

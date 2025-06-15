@@ -11,7 +11,7 @@ const HeroSection = () => {
         className="max-w-[1152px] mx-auto px-4 bg-no-repeat bg-contain bg-center pt-12 md:pt-15"
         style={{ backgroundImage: `url(${heroBg.src})` }}
       >
-        <h1 className="text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[25ch] mx-auto md:mt-12 lg:leading-[72px]">
+        <h1 className="text-[#202020] text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[25ch] mx-auto md:mt-12 lg:leading-[72px]">
           Charging just got smarter.{" "}
           <span className="text-[#6A0DAD]">Cracow,</span> meet convenience.
         </h1>
