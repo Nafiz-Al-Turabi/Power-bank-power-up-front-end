@@ -12,6 +12,7 @@ const navLinks = [
   { label: "How does it work", href: "#how-does-it-work" },
   { label: "Pricing", href: "#pricing" },
   { label: "Become a partner", href: "#become-a-partner" },
+  { label: "FAQ", href: "#faq" },
 ];
 
 const Navbar = () => {

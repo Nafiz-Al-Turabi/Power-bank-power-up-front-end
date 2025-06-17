@@ -48,7 +48,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="px-4 py-15">
+    <div className="px-4 py-15 title-font">
       <div className="max-w-[1152px] mx-auto py-16 px-4 md:px-15 md:py-20  text-white bg-[#000] rounded-[30px]">
         {faqs.map((faq, idx) => (
           <div key={idx} className="border-b border-[#808080]">
@@ -64,7 +64,7 @@ const FAQSection = () => {
               </span>
             </button>
             <div
-              className={`overflow-hidden transition-all duration-500 ${
+              className={`overflow-hidden transition-all duration-500 ease-in-out ${
                 openIndex === idx
                   ? "max-h-100 opacity-100 pb-6"
                   : "max-h-0 opacity-0 py-0"
