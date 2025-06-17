@@ -8,19 +8,19 @@ const faq = [
     question: "Scan QR to download the app",
     answer:
       "Experience the freedom to stay charged anytime, anywhere. Whether you're streaming, working, or exploring off the grid, our powerbanks keep your devices powered so you never miss a moment. Built for life on the go, designed for those who don't slow down.",
-    image: "/images/Gallery/gallery.jpg",
+    image: "/images/howDoesItWork/image.png",
   },
   {
     question: "Take a power bank from the closest location.",
     answer:
       "Experience the freedom to stay charged anytime, anywhere. Whether you're streaming, working, or exploring off the grid, our powerbanks keep your devices/",
-    image: "/images/Gallery/gallery3.jpg",
+    image: "/images/howDoesItWork/image2.png",
   },
   {
     question: "Use the app to find a return location.",
     answer:
       "Experience the freedom to stay charged anytime, anywhere. Whether you're streaming, working, or exploring off the grid, our powerbanks keep ",
-    image: "/images/Gallery/gallery2.jpg",
+    image: "/images/howDoesItWork/image3.png",
   },
 ];
 
