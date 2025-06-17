@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "@/public/logo-white.svg";
+import logo from "@/public/logo.svg";
 import bg from "@/public/footer-bg.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,31 +7,20 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <div
-        className="bg-black bg-cover xl:bg-contain 2xl:bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${bg.src})` }}
-      >
+      <div className="bg-[#F6F6F6] bg-cover xl:bg-contain 2xl:bg-cover bg-center bg-no-repeat">
         <div className="max-w-[1152px] mx-auto px-4 pt-15 pb-4">
-          <div className="flex flex-col justify-between">
+          <div className="flex items-center justify-between max-w-[601px] mx-auto">
+            <button className="bg-[#000000] text-white px-4 py-2 rounded-full">
+              +48 696 696 920
+            </button>
             <div className="flex items-center justify-center md:justify-start gap-4 ">
-              <Image src={logo} alt="logo" width={313} height={100} />
+              <Image src={logo} alt="logo" width={179} height={100} />
             </div>
-            <div className="flex flex-col md:flex-row justify-between title-font mt-12">
-              <h1 className="text-white text-xl font-semibold md:w-[12ch] text-center md:text-left">
-                Your day doesn’t stop. Neither should your phone.
-              </h1>
-              <div className="text-white text-center md:text-right text-lg md:text-xl font-semibold space-y-4 mt-12 md:mt-0">
-                <p>+48 696 696 920</p>
-                <p>info@powerup.eu.com</p>
-                <div className="">
-                  <a href="">Instagram</a>
-                  <a href="">LinkedIn</a>
-                  <a href="">Tiktok</a>
-                </div>
-              </div>
-            </div>
+            <button className="bg-[#000000] text-white px-4 py-2 rounded-full">
+              info@powerup.eu.com
+            </button>
           </div>
-          <p className="text-[#ababab] text-sm mt-8 text-center md:text-left">
+          <p className="text-[#5a5a5a] text-sm mt-8 text-center md:text-left">
             We are creating our own equipment and software to construct networks
             of battery rental devices for phones in businesses, events, and
             areas. Additionally, we are developing an app so people can rent
