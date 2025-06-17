@@ -6,7 +6,11 @@ interface PricingCardProps {
   description: string;
 }
 
-const PricingCard: React.FC<PricingCardProps> = ({ price, duration, description }) => (
+const PricingCard: React.FC<PricingCardProps> = ({
+  price,
+  duration,
+  description,
+}) => (
   <div className="border border-[#6A0DAD] rounded-2xl p-4 flex justify-center items-center h-[200px]">
     <div className="text-center">
       <h1 className="font-bold mb-4">
@@ -22,18 +26,18 @@ const pricingPlans = [
   {
     price: 5,
     duration: "hour",
-    description: "The price for an hour."
+    description: "The price for an hour.",
   },
   {
     price: 10,
     duration: "3 hours",
-    description: "The price for an hour."
+    description: "The price for an hour.",
   },
   {
     price: 15,
     duration: "day",
-    description: "The price for an hour."
-  }
+    description: "The price for an hour.",
+  },
 ];
 
 const Pricing: React.FC = () => {
@@ -50,15 +54,20 @@ const Pricing: React.FC = () => {
             Check out our deals and stay powered all day.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-15 md:py-20 lg:px-8">
-          {pricingPlans.map((plan, index) => (
-            <PricingCard
-              key={index}
-              price={plan.price}
-              duration={plan.duration}
-              description={plan.description}
-            />
-          ))}
+        <div className="py-15 md:py-20 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+            {pricingPlans.map((plan, index) => (
+              <PricingCard
+                key={index}
+                price={plan.price}
+                duration={plan.duration}
+                description={plan.description}
+              />
+            ))}
+          </div>
+          <p className="mt-3 text-sm leading-[20px] ">
+            *** Please note that you can only rent one power bank at a time.
+          </p>
         </div>
       </div>
     </div>
