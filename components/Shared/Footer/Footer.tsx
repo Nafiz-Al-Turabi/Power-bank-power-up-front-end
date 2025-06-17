@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-[1152px] mx-auto p-4 title-font">
-        <div className="text-[#6A0DAD] text-xs flex items-center gap-6">
+        <div className="text-[#000] text-xs flex items-center gap-6">
           <Link href="/">Terms and conditions</Link>
           <Link href="/">Privacy policy</Link>
         </div>
