@@ -5,7 +5,7 @@ import FAQ from "../../Others/FAQ/FAQ";
 
 const HowDoesItWork = () => {
   return (
-    <div className="bg-[#f6f6f6] mt-[278px] border-t border-[#6A0DAD] pt-52 lg:pt-68 relative">
+    <div className="bg-[#f6f6f6] mt-[200px] sm:mt-[278px] border-t border-[#6A0DAD] pt-52 lg:pt-68 relative">
       <Image
         src={howDoesItWork}
         alt="how-does-it-work"
