@@ -89,7 +89,7 @@ const FAQSection = () => {
               }`}
             >
               {faq.answer && (
-                <p className="text-base md:text-lg text-[#e4e4e4] ">
+                <p className="text-base md:text-lg text-[#dedede] ">
                   {faq.answer.split("\n").map((line, i) => (
                     <span key={i}>
                       {line}
