@@ -12,17 +12,20 @@ const Footer = () => {
     <div>
       <div className="bg-[#F6F6F6] bg-cover xl:bg-contain 2xl:bg-cover bg-center bg-no-repeat">
         <div className="max-w-[1152px] mx-auto px-4 pt-15 pb-4 relative">
-          <div className="flex items-center justify-between max-w-[601px] mx-auto ">
-            <button className="bg-[#000000] text-white px-4 py-2 rounded-full">
+          <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-between max-w-[601px] mx-auto ">
+            <button className="lg:block hidden bg-[#000000] text-white px-4 py-2 rounded-full">
               +48 696 696 920
             </button>
             <div className="flex items-center justify-center md:justify-start gap-4 ">
               <Image src={logo} alt="logo" width={179} height={100} />
             </div>
+            <button className="lg:hidden bg-[#000000] text-white px-4 py-2 rounded-full">
+              +48 696 696 920
+            </button>
             <button className="bg-[#000000] text-white px-4 py-2 rounded-full">
               info@powerup.eu.com
             </button>
-            <div className="flex items-center gap-3 absolute left-0">
+            <div className="flex items-center gap-3 lg:absolute left-4">
               <a href="https://www.facebook.com/powerup.eu.com">
               <TbBrandInstagramFilled size={24} />
               </a>
@@ -44,8 +47,8 @@ const Footer = () => {
       </div>
       <div className="max-w-[1152px] mx-auto p-4 title-font">
         <div className="text-[#000] text-xs flex items-center gap-6">
-          <Link href="/">Terms and conditions</Link>
-          <Link href="/">Privacy policy</Link>
+          <Link href="/" className="hover:text-green-600 duration-300 active:underline">Public offer agreement</Link>
+          <Link href="/" className="hover:text-green-600 duration-300 active:underline">Privacy policy</Link>
         </div>
       </div>
     </div>
