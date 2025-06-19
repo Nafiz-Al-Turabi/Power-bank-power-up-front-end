@@ -25,7 +25,7 @@ export default function HomePage() {
       <div id="become-a-partner" className="scroll-mt-24">
         <BecomePartner />
       </div>
-      <div id="faq" className="scroll-mt-24">
+      <div id="faq" className="-scroll-mt-4">
         <FAQSection />
       </div>
     </div>

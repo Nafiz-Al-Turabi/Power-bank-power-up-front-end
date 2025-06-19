@@ -11,7 +11,7 @@ const images = [image, image2, image3, image4, image5];
 const Gallery = () => {
     return (
         <div className='bg-[#fff] py-4 md:py-15'>
-            <div className='max-w-[1152px] mx-auto px-4'>
+            <div className='max-w-[1120px] mx-auto px-4'>
                 <div className='grid grid-cols-1 md:grid-cols-12 gap-3'>
                     {images.map((image, index) => (
                         <div key={index} className={index <= 1 ? 'md:col-span-6' : 'md:col-span-4'}>

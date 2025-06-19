@@ -43,7 +43,7 @@ const pricingPlans = [
 const Pricing: React.FC = () => {
   return (
     <div className="bg-[#f6f6f6]">
-      <div className="max-w-[1152px] mx-auto px-4">
+      <div className="max-w-[1120px] mx-auto px-4 2xl:px-0">
         <div>
           <h1 className="text-[#202020] text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center lg:w-[25ch] xl:w-[26ch] mx-auto lg:leading-[72px]">
             <span className="text-[#6A0DAD]">Big</span> power.{" "}

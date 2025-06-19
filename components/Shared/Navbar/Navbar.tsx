@@ -77,7 +77,7 @@ const Navbar = () => {
     <nav className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
     }`}>
-      <div className="max-w-[1152px] mx-auto px-4">
+      <div className="max-w-[1120px] mx-auto px-4 2xl:px-0">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">

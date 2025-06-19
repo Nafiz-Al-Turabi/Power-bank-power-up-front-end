@@ -5,7 +5,7 @@ import Image from 'next/image';
 const BecomePartner = () => {
     return (
         <div className="bg-[#f6f6f6] flex items-center justify-center pt-10 pb-15 md:pb-30">
-            <div className="max-w-[1152px] w-full flex flex-col md:flex-row items-center md:items-stretch bg-[#f6f6f6] mx-auto px-4">
+            <div className="max-w-[1120px] w-full flex flex-col md:flex-row items-center md:items-stretch bg-[#f6f6f6] mx-auto px-4 2xl:px-0">
                 {/* Left: Image */}
                 <div className="hidden md:flex-1 md:flex items-center justify-center mb-8 md:mb-0">
                     <Image src={image} alt="Become Partner" width={600} height={600} className="object-contain" />

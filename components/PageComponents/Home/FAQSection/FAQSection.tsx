@@ -48,7 +48,7 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="px-4 pt-25 pb-15 md:pt-30 title-font relative overflow-y-hidden">
+    <div className="px-4 pt-25 pb-15 md:pt-30 title-font relative overflow-y-hidden 2xl:px-0">
         <img src="/bolt.png" alt="Help" className="absolute -top-32 md:-top-72 lg:-top-1/4 left-1/2 -translate-x-1/2 " />
       <div className="relative z-10">
         <h1 className="text-[#202020] text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center lg:w-[25ch] xl:w-[26ch] mx-auto lg:leading-[72px]">
@@ -59,7 +59,7 @@ const FAQSection = () => {
           up.
         </p>
       </div>
-      <div className="max-w-[1152px] mx-auto py-10 px-4 md:px-15 md:py-20  text-white bg-[#000] rounded-[30px] mt-15 md:mt-20 relative z-10">
+      <div className="max-w-[1120px] mx-auto py-10 px-4  md:px-15 md:py-20  text-white bg-[#000] rounded-[30px] mt-15 md:mt-20 relative z-10 ">
         {faqs.map((faq, idx) => (
           <div key={idx} className="border-b border-[#808080]">
             <button
