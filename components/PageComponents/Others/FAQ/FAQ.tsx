@@ -7,19 +7,25 @@ const faq = [
   {
     question: "Scan QR to download the app",
     answer:
-      "Experience the freedom to stay charged anytime, anywhere. Whether you're streaming, working, or exploring off the grid, our powerbanks keep your devices powered so you never miss a moment. Built for life on the go, designed for those who don't slow down.",
+      "Scan the QR code on our stations or tap the “Download the App” button on the website to install PowerUp on your phone.",
+    answer2:
+      "Prefer not to download the app? No problem. You can still rent a powerbank by scanning the QR code directly on any of our stations. ",
     image: "/images/howDoesItWork/image.png",
   },
   {
     question: "Take a power bank from the closest location.",
     answer:
-      "Experience the freedom to stay charged anytime, anywhere. Whether you're streaming, working, or exploring off the grid, our powerbanks keep your devices/",
+      "Once you’ve downloaded our app, just complete a quick sign-up form to be able take a fully charged battery from any nearby station visible on the map.",
+    answer2:
+      "If you prefer to rent a power-bank without our app on the phone, just scan QR on any of our stations and complete the sign up form to take it.",
     image: "/images/howDoesItWork/image2.png",
   },
   {
     question: "Use the app to find a return location.",
     answer:
-      "Experience the freedom to stay charged anytime, anywhere. Whether you're streaming, working, or exploring off the grid, our powerbanks keep ",
+      "After powering up your device and ready to bring the device back, simply open the application to find the nearest return station for yourself.",
+    answer2:
+      "Our map makes it easy to find a drop-off point—whether you're at a café, shopping mall, or just on the move around Kraków.",
     image: "/images/howDoesItWork/image3.png",
   },
 ];
@@ -41,7 +47,9 @@ const FAQ = () => {
         {faq.map((item, index) => (
           <div
             key={index}
-            className={`border-b ${index === 2 ? "border-none": "border-[#6b6a6a66]"}`}
+            className={`border-b ${
+              index === 2 ? "border-none" : "border-[#6b6a6a66]"
+            }`}
           >
             <button
               className="flex justify-between items-center w-full py-4 text-left font-semibold focus:outline-none"
@@ -68,8 +76,11 @@ const FAQ = () => {
                  }
                             `}
             >
-              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 ">
+              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-4 ">
                 {item.answer}
+              </p>
+              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 ">
+                {item.answer2}
               </p>
               <div className="md:hidden py-4 mt-4 border-t border-[#6b6a6a66]">
                 <Image
