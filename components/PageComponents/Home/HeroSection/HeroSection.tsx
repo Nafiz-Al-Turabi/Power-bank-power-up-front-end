@@ -2,7 +2,7 @@ import React from "react";
 import heroBg from "@/public/images/hero/bolt.svg";
 import Image from "next/image";
 import appStore from "@/public/images/hero/app.svg";
-import goopowerbankglePlay from "@/public/images/hero/powerbank.png";
+import goopowerbankglePlay from "@/public/images/hero/powerbank.svg";
 
 const HeroSection = () => {
   return (
