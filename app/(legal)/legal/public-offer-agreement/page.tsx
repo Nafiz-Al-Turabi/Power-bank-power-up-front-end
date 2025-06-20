@@ -202,6 +202,30 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
+        <section className="RECEIVE mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            3. RECEIVE, USE and RETURN OF THE POWER BANK
+          </h3>
+          <div className="mb-6">
+            <h4 className="text-lg lg:text-xl font-semibold mb-4">
+              3.1 Power Bank Rental Station’s search
+            </h4>
+            <ol className="list-decimal ml-6">
+              <li>Information about the Power Bank Rental Stations’ location, the work schedule of the organization where the Power Bank Rental Station is located, the presence of a Power Bank or a free cell in the Power Bank Rental Station is available to the User in the Mobile application.</li>
+              <li>In order to display correct information, the User must provide stable Internet access and access to geolocation services on the device through which the Personal Account is logged in.</li>
+            </ol>
+          </div>
+          <div className="mb-6">
+            <h4 className="text-lg lg:text-xl font-semibold mb-4">3.2 Get a Power Bank</h4>
+            <ol className="list-decimal ml-6">
+              <li>To get a Power Bank, you must perform the steps listed in the instructions displayed in your Personal Account or on the Power Bank Rental Station’s screen, namely: <br /> — enter the Station number in the appropriate field on the Station screen, or scan the QR code placed on the Station (on the Station screen); <br /> — enter the details of the bank card through which payment for the use of the Power Bank will be made in the appropriate field on the bank card data entry screen by selecting this payment method on the payment method selection screen; — wait for the response of the Station;<br />— pick up the Power Bank in the opened cell.</li>
+              <li>The Company is not responsible for the correctness of the User’s entered data: the Station number, bank card details, or for the transfer of bank card details by the User to third parties (e. g. to help fill out bank card details in a Mobile application or for other purposes). If, due to a User's error while entering the number of the Station, the Power Bank is unlocked in a different Station than the one selected by the User, the User is liable under section 7 of the Agreement for loss, damage to the Power Bank issued in a different Station other than the one in which the User wanted to receive.</li>
+              <li>Upon receiving the Power Bank from the Power Bank Rental Station, the User must make sure within 5 (five) minutes that: <br /> — the charging indicator is active (a green light bulb (on the wide edge of the Power Bank) or a white stripe is on (on the narrow edge of the Power Bank));<br />— integrity of the Power Bank shell and connector;<br />— the presence and integrity of external Power Bank cables with USB Type-C, Micro USB and Lightning connectors;<br />— The Power Bank and its structural elements do not have external structural damage that cannot occur with proper use of the Power Bank according to clause 3.4.2 of the Agreement;<br />— on the outer shell of the Power Bank there are no inscriptions, images and graffiti applied on top of the mandatory markings and typewritten inscriptions and images identifying the characteristics and the Power Bank itself as such, as defined in the Agreement, as well as indicating the Application "POWERUP";<br />— The Power Bank is properly equipped and serviceable.</li>
+              <li>In case of detection of the shortcomings in the Power Bank specified in clause 3.2.3. of the Agreement, the User is obliged immediately to send a photo of such shortcomings to the Company's Support Service via the Mobile application, and then return the Power Bank to the Power Bank Rental Station. In this case, the User has the right to take another Power Bank from the Power Bank Rental Station. If the User has not reported about the shortcomings in the Power Bank to the Company's Support Service within 10 minutes after receiving the Power Bank, the Power Bank is considered suitable for use and the period of use is subject to payment. In case of non-fulfillment of the specified obligation, the User does not have the right to refer to the fact that such shortcomings arose before the User started using the Power Bank. The User assumes all risks in case of detection of shortcomings in the Power Bank by the next User or Company. Penalties specified in Section 7 of the Agreement may be applied to the User who violated the specified obligation from the moment such deficiencies are discovered by the Company or other Users.</li>
+              <li>The term of use (lease) of the Power Bank is calculated from the moment the User receives the Power Bank and ends when the Power Bank is returned to the Company's Power Bank Rental Station or by closing the order through the Support Service. The moment of return of the Power Bank to the Power Bank Rental Station is determined in accordance with the section "Return of the Power Bank" of the Agreement.</li>
+            </ol>
+          </div>
+        </section>
       </main>
     </div>
   );
