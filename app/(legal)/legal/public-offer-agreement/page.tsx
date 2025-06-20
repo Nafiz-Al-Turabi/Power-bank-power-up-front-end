@@ -88,7 +88,27 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
-        
+        <section className="SUBJECT mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+           1. SUBJECT
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>The Company undertakes to provide the User, upon request, with an access to the "POWERUP" platform, through which the User has an opportunity to take a Power Bank for a fee for temporary use under the terms of this Agreement.</li>
+            <li>By making acceptance of the Offer due to the order specified in section 2 of the Offer, the User fully agrees with all the provisions of this Offer and enters into the Agreement.</li>
+            <li>A detailed description of the Power Bank rental process, the Agreement price, possible discounts, technical requirements for the equipment and/or software of the User who wants to use the "POWERUP” platform, are shown on the Mobile application. This information is an integral part of the Agreement. The User confirms that prior to the conclusion of the Agreement, he/she has read the specified information, understands its content and agrees with it. By performing the actions specified in Section 3 hereof, the User enters into an Agreement.</li>
+            <li>The Company has the right to involve third parties in the process of execution of the Agreement at its discretion without the User’s consent.</li>
+            <li>The User, who has not read the terms of the Agreement in a timely manner, assumes all risks of adverse consequences associated with this.</li>
+            <li>The Company grants the User a limited, revocable, non-exclusive, non-transferable license for the right to use the "POWERUP" platform <strong>on the territory of the Republic of Cyprus.</strong></li>
+          </ol>
+        </section>
+        <section className="ACCEPTANCE mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+          2. ACCEPTANCE AND CONTRACTING OF THE OFFER
+          </h3>
+          <ol className="list-decimal ml-6">
+            
+          </ol>
+        </section>
       </main>
     </div>
   );
