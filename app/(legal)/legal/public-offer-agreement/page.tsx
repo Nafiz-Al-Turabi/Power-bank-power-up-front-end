@@ -615,6 +615,32 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
+        <section className="PERSONAL DATA PROCESSING  mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            6. PERSONAL DATA PROCESSING 
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>
+              Users’ personal data are processed by the Company in compliance
+              with the principles and rules of the Regulation (EU) 2016/679
+              (General Data Protection Regulation), taking into account the
+              necessity to ensure the protection of personal data holders’
+              rights and freedoms. 
+            </li>
+            <li>
+              Our Privacy Policy is a legal statement explaining how the Company
+              collects, handles, processes, and respects its users' personal
+              data on the Website or Mobile application. Privacy Policy is
+              available at all times on the Mobile application and our Website
+              in the "Legal Documents" section. 
+            </li>
+            <li>
+              If you have any questions about the Privacy Policy, including any
+              requests to exercise your legal rights, please email
+              us compliance@powerup.eu.com.
+            </li>
+          </ol>
+        </section>
       </main>
     </div>
   );
