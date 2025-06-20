@@ -12,7 +12,7 @@ export default function PublicOfferAgreementPage() {
           platform license agreement on granting right of use
         </p>
       </header>
-      <main className="max-w-[120ch] mx-auto px-4 2xl:px-0">
+      <main className="max-w-[1120px] mx-auto px-4 2xl:px-0">
         <section className="text-base mb-12">
           <p className="mb-6">Effective Date: 16 February 2023</p>
           <div>
