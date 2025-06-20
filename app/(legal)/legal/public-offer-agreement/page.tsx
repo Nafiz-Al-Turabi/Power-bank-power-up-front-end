@@ -780,6 +780,18 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
+        <section className="DISPUTES RESOLUTION mb-12">
+          <ol className="list-decimal ml-6">
+            <li>
+              The Parties will make efforts to resolve all disputes that may
+              arise on the Agreement through negotiations. Any Party may begin
+              negotiations after providing written notification to the other
+              Party of its intention to begin such negotiations. All claims
+              under this Agreement must be considered by the Parties within 15
+              (fifteen) days from the date of their receipt.
+            </li>
+          </ol>
+        </section>
       </main>
     </div>
   );
