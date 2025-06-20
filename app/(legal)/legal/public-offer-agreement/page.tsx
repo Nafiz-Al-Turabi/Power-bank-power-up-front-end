@@ -392,6 +392,30 @@ export default function PublicOfferAgreementPage() {
             </ol>
           </div>
         </section>
+        <section className="AGREEMENT PRICE and PAYMENT PROCEDURE mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            4. AGREEMENT PRICE and PAYMENT PROCEDURE
+          </h3>
+          <ol className="list-decimal ml-6">
+           <li>The Agreement price is set in the form of a license fee and the cost of using the Power Bank for the time interval selected by the User in accordance with the rate set for the corresponding Power Bank Rental Station and displayed in the Mobile application. The Agreement price includes VAT.</li>
+           <li>The license fee for access to the "POWERUP" platform is 80% of the amount paid by the User at the appropriate rate.</li>
+           <li>The exact cost of a minute / half hour / hour / day / week / month / six months / year or other time interval determined by the rate is indicated in the "POWERUP" Mobile application / on the Power Bank Rental Station. The Company has the right to set the maximum Agreement price.</li>
+           <li>Upon acceptance of the Offer in accordance with clause 2 of the Agreement, the User expresses his unconditional consent to the sending by the Company of orders, requests, demands to the User's bank, as well as to the non-acceptance deduction of funds constituting the license fee, lease payments, fines and other payments stipulated by the Agreement.</li>
+           <li>The Company has the right to verify the validity of the User's bank card by freezing/unfreezing the funds on the bank card account in the amount not exceeding the cost of the Power Bank specified in clause 7.2. of the Agreement.  If the User takes the Power Bank in a Power Bank Rental Station with a free trial period of use and returns the Power Bank without damage before the expiration of the specified trial period, then funds are not debited from the User's bank card.  If the Power Bank was returned before the end of the set free trial period, however, the Power Bank Rental Station was detecting the returned Power Bank for more than 1-3 minutes, and funds were debited from the User's bank card, the Company returns the debited funds to the same bank card of the User. The Company has the right to refuse to issue a Power Bank to the User in the absence of funds necessary for card validation. All payments under the Agreement are made by debiting funds from the User's bank card, the details of which are specified by the User in the Mobile application. Such payments do not require additional confirmation from the User.</li>
+           <li>In order to guarantee a payment of the license fee, as well as rent, the Company has the right to block an amount of up to EUR20 on the User's card at the time of receiving the Power Bank by the User. The Company removes the block after the full payment of the license fee and rent by the User, and the funds remain on the User's bank card.</li>
+           <li>Payment can be made via bank cards issued by the payment processing networks (Visa, MasterCard, etc.) specified in the User's Personal Account and/or on the Mobile application. </li>
+           <li>If the User does not provide the correct bank card details with a positive balance at the time of the start of using the Power Bank, the Company has the right to refuse to provide the Power Bank to the User or to issue the Power Bank with the subsequent deduction of the debt from the User's bank card.</li>
+           <li>Payment for the use of the Power Bank shall be made in advance.</li>
+           <li>In the “POWERUP” Mobile application, the time counter displays at what time the next payment will be debited and the amount to be paid.</li>
+           <li>After debiting funds from the User's bank card, a payment confirmation document will be available in the Mobile application or will be sent to the User to the email address specified by the User in the Mobile application.</li>
+           <li>If the payment cannot be debited due to insufficient funds on the bank card, incorrect entry of bank card details, expiration of the bank card, or other reasons, the Company notifies the User about this through a message in the Personal Account, e-mail. The Company has the right to inform the User about the need to pay the arrears for using the Power Bank using the phone number provided during the registration at the “POWERUP” platform.</li>
+           <li>The User is charged for the use of the Power Bank until the return of the Power Bank, in the amount specified in clause 7.4. of this Agreement.</li>
+           <li>The Company has the right to debit the amount of accrued debt from the User's bank card at the time the User eliminates the facts preventing the funds from being debited, as well as at any time before the User returns the Power Bank.</li>
+           <li>If the User does not remove the obstacles to payment within 24 hours from the moment of notifying the User of the impossibility of debiting the payment, the Company has the right to terminate the Agreement by blocking the User's access to the Mobile application and limiting the possibility of later obtaining another Power Bank.</li>
+           <li>If the User returns the Power Bank before the end of the paid time of use, there is no refund for the unused rental period. </li>
+           <li> The Company has the right at its discretion to choose the third parties for the provision of the payments processing services.</li>
+          </ol>
+        </section>
       </main>
     </div>
   );
