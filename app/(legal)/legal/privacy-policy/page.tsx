@@ -390,7 +390,7 @@ export default function PrivacyPolicyPage() {
                   target="blank"
                   href="https://support.google.com/android/answer/3118621?hl=en"
                 >
-                  https://support.google.com/android/answer/3118621?hl=en
+                  https://support.google.com/
                 </a>{" "}
                 or inside the Device, at Setting section {">"} Security and
                 privacy {">"} Privacy {">"} Other privacy settings {">"} Ads, OR
