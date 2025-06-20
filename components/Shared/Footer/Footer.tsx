@@ -47,8 +47,8 @@ const Footer = () => {
       </div>
       <div className="max-w-[1152px] mx-auto p-4 title-font">
         <div className="text-[#000] text-xs flex items-center gap-6">
-          <Link href="/" className="hover:text-green-600 duration-300 active:underline">Public offer agreement</Link>
-          <Link href="/" className="hover:text-green-600 duration-300 active:underline">Privacy policy</Link>
+          <Link href="/legal/public-offer-agreement" className="hover:text-green-600 duration-300 active:underline">Public offer agreement</Link>
+          <Link href="/legal/privacy-policy" className="hover:text-green-600 duration-300 active:underline">Privacy policy</Link>
         </div>
       </div>
     </div>
