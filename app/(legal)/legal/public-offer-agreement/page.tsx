@@ -739,6 +739,33 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
+        <section className="VARIATION mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            9. VARIATION
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>
+              The Company has the right to make changes/additions to the terms
+              of the Agreement unilaterally without any special notification.
+              This Agreement is an official document. The latest version of the
+              Agreement is available at all times on the Mobile application and
+              our Website in the "Legal Documents" section. The Company
+              recommends you regularly check the terms of this Agreement for
+              changes and/or additions. The placement of the amended version of
+              the Agreement, as well as the new version of the Agreement, is an
+              offer to the User to change the terms of the Agreement.
+            </li>
+            <li>
+              If the User performs the actions necessary to receive the Power
+              Bank for use during the validity of the new version / or the new
+              terms of the Agreement, as well as continues to use the Power Bank
+              received before the publication of the new version of the
+              Agreement / amendments to the previously valid version of the
+              Agreement, such actions are consent (acceptance) of the User with
+              the changes proposed by the Company.
+            </li>
+          </ol>
+        </section>
       </main>
     </div>
   );
