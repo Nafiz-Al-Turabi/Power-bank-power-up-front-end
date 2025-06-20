@@ -513,17 +513,17 @@ export default function PrivacyPolicyPage() {
               stage, we may be unable to provide our services to you.
             </li>
             <li>
-              <strong>Opting out.</strong> You can follow the opt-out links on any marketing
-              message sent to you. In case of Third Party Information gathered
-              via cookies you have the right to opt-out through the opt-out
-              options provided by the relevant third party. For more
-              information, please see the Cookie Policy.
+              <strong>Opting out.</strong> You can follow the opt-out links on
+              any marketing message sent to you. In case of Third Party
+              Information gathered via cookies you have the right to opt-out
+              through the opt-out options provided by the relevant third party.
+              For more information, please see the Cookie Policy.
             </li>
             <li>
-              <strong>Change of purpose.</strong> We will only use your personal data for the
-              purposes for which we collected it, unless we reasonably consider
-              that we need to use it for another reason and that reason is
-              compatible with the original purpose. 
+              <strong>Change of purpose.</strong> We will only use your personal
+              data for the purposes for which we collected it, unless we
+              reasonably consider that we need to use it for another reason and
+              that reason is compatible with the original purpose. 
             </li>
             <li>
               Please note that we may process your personal data without your
@@ -537,7 +537,13 @@ export default function PrivacyPolicyPage() {
           <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
             4. RETAINING YOUR INFORMATION
           </h3>
-          <p>We retain your information for as long as it is necessary for the performance of the contract we have with you. If you no longer want us to use your information you can send a request to compliance@powerup.eu.com. Please note that in this case we may be unable to provide our services to you.</p>
+          <p>
+            We retain your information for as long as it is necessary for the
+            performance of the contract we have with you. If you no longer want
+            us to use your information you can send a request
+            to compliance@powerup.eu.com. Please note that in this case we may
+            be unable to provide our services to you.
+          </p>
         </section>
 
         <section className="STORAGE SECURITY mb-12">
@@ -545,10 +551,28 @@ export default function PrivacyPolicyPage() {
             5. STORAGE SECURITY
           </h3>
           <ol className="list-decimal ml-6">
-            <li>The hosting facilities for our Website and the Mobile application infrastructure are situated within the EU.</li>
-            <li>The data that we collect from you will be transferred to, and stored at, a destination inside the European Economic Area (EEA).</li>
-            <li>All information you provide to us is stored on our secure servers. Any transmission of information is encrypted using TLS technology, the current standard in secure communications over the Internet. Unfortunately, the transmission of information via the Internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk.</li>
-            <li>Once we have received your information, we will use strict procedures and security features to try to prevent unauthorized access. </li>
+            <li>
+              The hosting facilities for our Website and the Mobile application
+              infrastructure are situated within the EU.
+            </li>
+            <li>
+              The data that we collect from you will be transferred to, and
+              stored at, a destination inside the European Economic Area (EEA).
+            </li>
+            <li>
+              All information you provide to us is stored on our secure servers.
+              Any transmission of information is encrypted using TLS technology,
+              the current standard in secure communications over the Internet.
+              Unfortunately, the transmission of information via the Internet is
+              not completely secure. Although we will do our best to protect
+              your personal data, we cannot guarantee the security of your data
+              transmitted to our site; any transmission is at your own risk.
+            </li>
+            <li>
+              Once we have received your information, we will use strict
+              procedures and security features to try to prevent unauthorized
+              access. 
+            </li>
           </ol>
         </section>
 
@@ -557,17 +581,70 @@ export default function PrivacyPolicyPage() {
             6. YOUR LEGAL RIGHTS
           </h3>
           <p className="mb-4">
-            You have rights under data protection laws in relation to your personal data. Please see below to find out more about these rights:‍
+            You have rights under data protection laws in relation to your
+            personal data. Please see below to find out more about these
+            rights:‍
           </p>
           <ul className="space-y-1">
-            <li><strong>The right to access</strong> – You have the right to request us for copies of your personal data.</li>
-            <li><strong>The right to rectification </strong>– You have the right to request that the Company correct any information you believe is inaccurate. You also have the right to request the Company to complete the information you believe is incomplete.</li>
-            <li><strong>The right to erasure</strong> – You have the right to request that the Company erase your personal data, under certain conditions.</li>
-            <li><strong>The right to restrict processing</strong> – You have the right to request that the Company restrict the processing of your personal data, under certain conditions.</li>
-            <li><strong>The right to object to processing</strong> – You have the right to object to the Company’s processing of your personal data, under certain conditions.</li>
-            <li><strong>The right to data portability</strong> – You have the right to request that the Company transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li>
-            <li>If you make a request, we have one month to respond to you. </li>
+            <li>
+              <strong>The right to access</strong> – You have the right to
+              request us for copies of your personal data.
+            </li>
+            <li>
+              <strong>The right to rectification </strong>– You have the right
+              to request that the Company correct any information you believe is
+              inaccurate. You also have the right to request the Company to
+              complete the information you believe is incomplete.
+            </li>
+            <li>
+              <strong>The right to erasure</strong> – You have the right to
+              request that the Company erase your personal data, under certain
+              conditions.
+            </li>
+            <li>
+              <strong>The right to restrict processing</strong> – You have the
+              right to request that the Company restrict the processing of your
+              personal data, under certain conditions.
+            </li>
+            <li>
+              <strong>The right to object to processing</strong> – You have the
+              right to object to the Company’s processing of your personal data,
+              under certain conditions.
+            </li>
+            <li>
+              <strong>The right to data portability</strong> – You have the
+              right to request that the Company transfer the data that we have
+              collected to another organization, or directly to you, under
+              certain conditions.
+            </li>
+            <li>
+              If you make a request, we have one month to respond to you. 
+            </li>
           </ul>
+        </section>
+
+        <section className="CHILDREN’S INFORMATION mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            7. CHILDREN’S INFORMATION
+          </h3>
+          <p className="mb-4">
+            POWERUP does not knowingly collect any personal data from children
+            under the age of 16. If you think that your child provided this kind
+            of information to the Company, we strongly encourage you to contact
+            us immediately and we will do our best efforts to promptly remove
+            such information from our records.
+          </p>
+        </section>
+        <section className="CHANGES TO PRIVACY POLICY mb-25 lg:mb-30">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            8. CHANGES TO PRIVACY POLICY
+          </h3>
+          <p className="mb-4">
+            Any changes we may make to our Privacy Policy in the future will be
+            posted on our Website or in the Mobile application and, where
+            appropriate, notified to you by email. Please check back frequently
+            to see any updates or changes to our Privacy Policy.
+          </p>
         </section>
       </main>
     </div>
