@@ -781,6 +781,9 @@ export default function PublicOfferAgreementPage() {
           </ol>
         </section>
         <section className="DISPUTES RESOLUTION mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            11. DISPUTES RESOLUTION
+          </h3>
           <ol className="list-decimal ml-6">
             <li>
               The Parties will make efforts to resolve all disputes that may
@@ -790,6 +793,14 @@ export default function PublicOfferAgreementPage() {
               under this Agreement must be considered by the Parties within 15
               (fifteen) days from the date of their receipt.
             </li>
+          </ol>
+        </section>
+        <section className="GOVERNING LAW AND JURISDICTION mb-25 lg:mb-30">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            12. GOVERNING LAW. JURISDICTION
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>This Agreement shall be construed in accordance with the laws of the Republic of Cyprus and all disputes, claims or proceedings between the Parties relating to the validity, construction or performance of this Agreement shall be subject to the exclusive jurisdiction of the Courts of the Republic of Cyprus.</li>
           </ol>
         </section>
       </main>
