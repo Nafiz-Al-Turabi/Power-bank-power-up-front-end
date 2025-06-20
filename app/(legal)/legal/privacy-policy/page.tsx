@@ -165,14 +165,53 @@ export default function PrivacyPolicyPage() {
                 the first instance.
               </li>
             </ol>
-            <p>So that we're clear and there's no misunderstanding about how we
-              handle your personal data, we will:</p>
+            <p>
+              So that we're clear and there's no misunderstanding about how we
+              handle your personal data, we will:
+            </p>
             <ul className="list-disc ml-6">
               <li>Always keep your data safe and private.</li>
               <li>Never sell your data.</li>
-              <li>Allow you to manage and review your marketing choices at any time.</li>
+              <li>
+                Allow you to manage and review your marketing choices at any
+                time.
+              </li>
             </ul>
           </div>
+        </section>
+        <section className="mb-12 space-y-4">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl">
+            2. INFORMATION WE COLLECT ABOUT YOU
+          </h3>
+          <p className="">
+            We will collect, use, store and transfer different kinds of personal
+            data about you which we have grouped together as follows:
+          </p>
+          <p>
+            <strong>‍1. Submitted Information</strong> - information you give us
+            through direct interactions:
+          </p>
+          <p>
+            This is information you give us about yourself by filling in forms
+            on the Mobile application and/or the Website, or by corresponding
+            with us (for example, by e-mail or via the chat functions on the
+            Mobile application and/or the Website).
+          </p>
+          <p>
+            It includes information you provide when you register to use the
+            Mobile application, download or register the Mobile application,
+            subscribe to any of our Services, enter into any order or
+            transaction on the Mobile application, participate in discussion
+            boards or other social media functions on the Mobile application or
+            the Website, enter a competition, promotion or survey and when you
+            report a problem with a Mobile application or the services.
+          </p>
+          <p>
+            The information you give us may include your email address, phone
+            number, transaction information (payment data, payment amount,
+            cardholder name, first 6 and last 4 card digits, bank name, payment
+            processing system).
+          </p>
         </section>
       </main>
     </div>
