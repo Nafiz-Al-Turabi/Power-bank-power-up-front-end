@@ -179,39 +179,126 @@ export default function PrivacyPolicyPage() {
             </ul>
           </div>
         </section>
-        <section className="mb-12 space-y-4">
-          <h3 className="uppercase font-bold text-xl lg:text-2xl">
+        <section className="INFORMATION WE COLLECT ABOUT YOU mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
             2. INFORMATION WE COLLECT ABOUT YOU
           </h3>
-          <p className="">
+          <p className="mb-4">
             We will collect, use, store and transfer different kinds of personal
             data about you which we have grouped together as follows:
           </p>
-          <p>
-            <strong>‍1. Submitted Information</strong> - information you give us
-            through direct interactions:
-          </p>
-          <p>
-            This is information you give us about yourself by filling in forms
-            on the Mobile application and/or the Website, or by corresponding
-            with us (for example, by e-mail or via the chat functions on the
-            Mobile application and/or the Website).
-          </p>
-          <p>
-            It includes information you provide when you register to use the
-            Mobile application, download or register the Mobile application,
-            subscribe to any of our Services, enter into any order or
-            transaction on the Mobile application, participate in discussion
-            boards or other social media functions on the Mobile application or
-            the Website, enter a competition, promotion or survey and when you
-            report a problem with a Mobile application or the services.
-          </p>
-          <p>
-            The information you give us may include your email address, phone
-            number, transaction information (payment data, payment amount,
-            cardholder name, first 6 and last 4 card digits, bank name, payment
-            processing system).
-          </p>
+          <div className="space-y-4 mb-6">
+            <p>
+              <strong>‍1. Submitted Information</strong> - information you give
+              us through direct interactions:
+            </p>
+            <p>
+              This is information you give us about yourself by filling in forms
+              on the Mobile application and/or the Website, or by corresponding
+              with us (for example, by e-mail or via the chat functions on the
+              Mobile application and/or the Website).
+            </p>
+            <p>
+              It includes information you provide when you register to use the
+              Mobile application, download or register the Mobile application,
+              subscribe to any of our Services, enter into any order or
+              transaction on the Mobile application, participate in discussion
+              boards or other social media functions on the Mobile application
+              or the Website, enter a competition, promotion or survey and when
+              you report a problem with a Mobile application or the services.
+            </p>
+            <p>
+              The information you give us may include your email address, phone
+              number, transaction information (payment data, payment amount,
+              cardholder name, first 6 and last 4 card digits, bank name,
+              payment processing system).
+            </p>
+          </div>
+          <div className="space-y-4 mb-6">
+            <p>
+              <strong>2. Information we collect</strong> about you and your
+              Device.
+            </p>
+            <p>
+              <strong>Device Information</strong> - each time you visit the
+              Mobile application or our Website we will automatically collect
+              the following information:
+            </p>
+            <ul className="list-disc ml-6 space-y-4">
+              <li>
+                technical information, including the internet protocol (IP)
+                address used to connect your Device to the Internet, your login
+                information, browser type and version, time zone setting,
+                browser plug-in types and versions, operating system and
+                platform, Device information and the type of mobile device you
+                use, a unique Device identifier (for example, your Device's IMEI
+                number, the MAC address of the Device's wireless network
+                interface, or the mobile phone number used by the Device),
+                mobile network information, your mobile operating system, the
+                type of mobile browser you use, time zone setting, geolocation
+                data;
+              </li>
+              <li>
+                information about your visit, including the full uniform
+                resource locators (URL), clickstream to, through and from our
+                site (including date and time), services you viewed or searched
+                for, page response times, download errors, length of visits to
+                certain pages, page interaction information (such as scrolling,
+                clicks, and mouse-overs), methods used to browse away from the
+                page;
+              </li>
+              <li>
+                transaction information (If you pay our fees with a credit card
+                or debit card, your credit card or debit card information is
+                provided directly to the following third-party payment
+                processors to process the payments): 
+              </li>
+              <li>
+                <strong>STRIPE</strong> <br /> The payment information is
+                transmitted directly via an encrypted connection by you to
+                STRIPE. STRIPE processes and stores your personal data and
+                payment information in accordance with STRIPE’s privacy policy
+                available at{" "}
+                <a
+                  href="https://stripe.com/privacy"
+                  className="underline"
+                  target="_blank"
+                >
+                  https://stripe.com/privacy
+                </a>
+                . POWERUP does not collect or store your payment information.
+                STRIPE maintains that it is PCI compliant and you can learn more
+                about STRIPE’s security measures available at 
+                <a
+                  target="_blank"
+                  href="https://stripe.com/docs/security"
+                  className="underline"
+                >
+                  (https://stripe.com/docs/security)
+                </a>{" "}
+              </li>
+              <li>
+                details of your use of our Mobile application or your visits to
+                our Website.
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-4 mb-6">
+            <p>
+              <strong>3. Third Party Information:</strong> Information to help
+              us deliver our service to you.
+            </p>
+            <p>Third-party Providers are not managed or controlled by the Company, and this Privacy Policy does not apply to Third-Party Providers. The Company is not responsible for the content, privacy policy or actions of third-party providers. The User has the right to study and understand the privacy policy of any third-party provider before providing any information to them or through them. The User's interaction with these features is governed by the privacy policy of the third-party provider that provides this feature.</p>
+            <ul className="list-disc ml-6 space-y-4">
+              <li>Through the Website we use an analytics service provider such as Google Analytics which collects information from cookies, such as your IP address and information about the browsing. Please see our Cookie Policy on the Website and Mobile application for details how data is collected and processed by such third parties and for instructions on how Users can opt-out of these features.</li>
+              <li>Through the Mobile application we use analytics, marketing analytics and ad service providers, which collect information from identifiers for mobile devices. This is a unique, anonymized, user-resettable ID for advertising and analytics such as an Android Advertising Identifier (provided by Google Play services) and Identifier for Advertisers (IDFA) provided by Apple):</li>
+              <li>Amplitude - a service for analyzing user behavior on the mobile applications (For more information about Amplitude’s privacy practices, see <a href="https://amplitude.com/privacy" className="underline" target="blank">https://amplitude.com/privacy</a> );</li>
+              <li>Firebase - tools from Google for building app infrastructure, improving app quality (For more information about Firebase’s privacy practices, see <a className="underline" target="blank" href="https://firebase.google.com/terms/data-processing-terms">https://firebase.google.com/terms/data-processing-terms</a> ; You can find and delete your Web & App Activity by visiting My Activity. Learn more about how to <a className="underline" target="blank" href="https://support.google.com/accounts/answer/465#delete-manually">delete activity manually</a> or set up <a className="underline" target="blank" href="https://support.google.com/accounts/answer/465#auto-delete">automatic deletion</a>.);</li>
+              <li>AppsFlyer - attribution and marketing analytics services (For more information about AppsFlyer’s privacy practices, see <a className="underline" target="blank" href="https://www.appsflyer.com/legal/services-privacy-policy/">https://www.appsflyer.com/legal/services-privacy-policy/</a> ; opt out feature here - <a className="underline" target="blank" href="https://www.appsflyer.com/legal/opt-out/">https://www.appsflyer.com/legal/opt-out/</a> ).</li>
+              <li>To opt of cross-app tracking and using your Device ID: <br /> — If your phone uses Google Play Services, you can manage your Google apps and services in Google Settings here <a className="underline" target="blank" href="https://support.google.com/android/answer/3118621?hl=en">https://support.google.com/android/answer/3118621?hl=en</a> or inside the Device, at Setting section {'>'} Security and privacy {'>'} Privacy {'>'} Other privacy settings {'>'} Ads, OR</li>
+            </ul>
+            <p>— If you use an iPhone go to Settings {'>'} Privacy {'>'} Tracking. Here, make sure to turn Allow Apps to Request to Track OFF.</p>
+          </div>
         </section>
       </main>
     </div>
