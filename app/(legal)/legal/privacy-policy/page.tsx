@@ -288,17 +288,249 @@ export default function PrivacyPolicyPage() {
               <strong>3. Third Party Information:</strong> Information to help
               us deliver our service to you.
             </p>
-            <p>Third-party Providers are not managed or controlled by the Company, and this Privacy Policy does not apply to Third-Party Providers. The Company is not responsible for the content, privacy policy or actions of third-party providers. The User has the right to study and understand the privacy policy of any third-party provider before providing any information to them or through them. The User's interaction with these features is governed by the privacy policy of the third-party provider that provides this feature.</p>
+            <p>
+              Third-party Providers are not managed or controlled by the
+              Company, and this Privacy Policy does not apply to Third-Party
+              Providers. The Company is not responsible for the content, privacy
+              policy or actions of third-party providers. The User has the right
+              to study and understand the privacy policy of any third-party
+              provider before providing any information to them or through them.
+              The User's interaction with these features is governed by the
+              privacy policy of the third-party provider that provides this
+              feature.
+            </p>
             <ul className="list-disc ml-6 space-y-4">
-              <li>Through the Website we use an analytics service provider such as Google Analytics which collects information from cookies, such as your IP address and information about the browsing. Please see our Cookie Policy on the Website and Mobile application for details how data is collected and processed by such third parties and for instructions on how Users can opt-out of these features.</li>
-              <li>Through the Mobile application we use analytics, marketing analytics and ad service providers, which collect information from identifiers for mobile devices. This is a unique, anonymized, user-resettable ID for advertising and analytics such as an Android Advertising Identifier (provided by Google Play services) and Identifier for Advertisers (IDFA) provided by Apple):</li>
-              <li>Amplitude - a service for analyzing user behavior on the mobile applications (For more information about Amplitude’s privacy practices, see <a href="https://amplitude.com/privacy" className="underline" target="blank">https://amplitude.com/privacy</a> );</li>
-              <li>Firebase - tools from Google for building app infrastructure, improving app quality (For more information about Firebase’s privacy practices, see <a className="underline" target="blank" href="https://firebase.google.com/terms/data-processing-terms">https://firebase.google.com/terms/data-processing-terms</a> ; You can find and delete your Web & App Activity by visiting My Activity. Learn more about how to <a className="underline" target="blank" href="https://support.google.com/accounts/answer/465#delete-manually">delete activity manually</a> or set up <a className="underline" target="blank" href="https://support.google.com/accounts/answer/465#auto-delete">automatic deletion</a>.);</li>
-              <li>AppsFlyer - attribution and marketing analytics services (For more information about AppsFlyer’s privacy practices, see <a className="underline" target="blank" href="https://www.appsflyer.com/legal/services-privacy-policy/">https://www.appsflyer.com/legal/services-privacy-policy/</a> ; opt out feature here - <a className="underline" target="blank" href="https://www.appsflyer.com/legal/opt-out/">https://www.appsflyer.com/legal/opt-out/</a> ).</li>
-              <li>To opt of cross-app tracking and using your Device ID: <br /> — If your phone uses Google Play Services, you can manage your Google apps and services in Google Settings here <a className="underline" target="blank" href="https://support.google.com/android/answer/3118621?hl=en">https://support.google.com/android/answer/3118621?hl=en</a> or inside the Device, at Setting section {'>'} Security and privacy {'>'} Privacy {'>'} Other privacy settings {'>'} Ads, OR</li>
+              <li>
+                Through the Website we use an analytics service provider such as
+                Google Analytics which collects information from cookies, such
+                as your IP address and information about the browsing. Please
+                see our Cookie Policy on the Website and Mobile application for
+                details how data is collected and processed by such third
+                parties and for instructions on how Users can opt-out of these
+                features.
+              </li>
+              <li>
+                Through the Mobile application we use analytics, marketing
+                analytics and ad service providers, which collect information
+                from identifiers for mobile devices. This is a unique,
+                anonymized, user-resettable ID for advertising and analytics
+                such as an Android Advertising Identifier (provided by Google
+                Play services) and Identifier for Advertisers (IDFA) provided by
+                Apple):
+              </li>
+              <li>
+                Amplitude - a service for analyzing user behavior on the mobile
+                applications (For more information about Amplitude’s privacy
+                practices, see 
+                <a
+                  href="https://amplitude.com/privacy"
+                  className="underline"
+                  target="blank"
+                >
+                  https://amplitude.com/privacy
+                </a>{" "}
+                );
+              </li>
+              <li>
+                Firebase - tools from Google for building app infrastructure,
+                improving app quality (For more information about Firebase’s
+                privacy practices, see{" "}
+                <a
+                  className="underline"
+                  target="blank"
+                  href="https://firebase.google.com/terms/data-processing-terms"
+                >
+                  https://firebase.google.com/terms/data-processing-terms
+                </a>{" "}
+                ; You can find and delete your Web & App Activity by visiting My
+                Activity. Learn more about how to 
+                <a
+                  className="underline"
+                  target="blank"
+                  href="https://support.google.com/accounts/answer/465#delete-manually"
+                >
+                  delete activity manually
+                </a>
+                 or set up{" "}
+                <a
+                  className="underline"
+                  target="blank"
+                  href="https://support.google.com/accounts/answer/465#auto-delete"
+                >
+                  automatic deletion
+                </a>
+                .);
+              </li>
+              <li>
+                AppsFlyer - attribution and marketing analytics services (For
+                more information about AppsFlyer’s privacy practices, see{" "}
+                <a
+                  className="underline"
+                  target="blank"
+                  href="https://www.appsflyer.com/legal/services-privacy-policy/"
+                >
+                  https://www.appsflyer.com/legal/services-privacy-policy/
+                </a>
+                 ; opt out feature here -{" "}
+                <a
+                  className="underline"
+                  target="blank"
+                  href="https://www.appsflyer.com/legal/opt-out/"
+                >
+                  https://www.appsflyer.com/legal/opt-out/
+                </a>{" "}
+                ).
+              </li>
+              <li>
+                To opt of cross-app tracking and using your Device ID: <br /> —
+                If your phone uses Google Play Services, you can manage your
+                Google apps and services in Google Settings here{" "}
+                <a
+                  className="underline"
+                  target="blank"
+                  href="https://support.google.com/android/answer/3118621?hl=en"
+                >
+                  https://support.google.com/android/answer/3118621?hl=en
+                </a>{" "}
+                or inside the Device, at Setting section {">"} Security and
+                privacy {">"} Privacy {">"} Other privacy settings {">"} Ads, OR
+              </li>
             </ul>
-            <p>— If you use an iPhone go to Settings {'>'} Privacy {'>'} Tracking. Here, make sure to turn Allow Apps to Request to Track OFF.</p>
+            <p>
+              — If you use an iPhone go to Settings {">"} Privacy {">"}{" "}
+              Tracking. Here, make sure to turn Allow Apps to Request to Track
+              OFF.
+            </p>
           </div>
+        </section>
+
+        <section className="USES MADE OF THE INFORMATION mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            3. USES MADE OF THE INFORMATION
+          </h3>
+          <ol className="list-decimal ml-6 space-y-4 mb-8">
+            <li>
+              Below is a summary of the key types of data that we make use of as
+              part of the POWERUP services. For more information on how these
+              types of data are used and for which purposes then please see the
+              table below.
+            </li>
+            <li>
+              We use information held about you in the following ways:
+              <p className="my-6">
+                (a) <strong>Submitted Information:</strong> We will use this
+                information:
+              </p>
+              <ul className="list-disc">
+                <li>
+                  to carry out our obligations arising from any transactions you
+                  enter into with us and to provide you with the information and
+                  services that you request from us;
+                </li>
+                <li>to notify you about changes to our services; and</li>
+                <li>
+                  to ensure that content from our Website or in the Mobile
+                  application is presented in the most effective manner for you
+                  and for your Device.
+                </li>
+              </ul>
+              <p className="my-6">
+                (b) <strong> Device Information:</strong> We will use this
+                information:{" "}
+              </p>
+              <ul className="list-disc">
+                <li>
+                  to administer our Website and the Mobile application for
+                  internal operations, including troubleshooting, data analysis,
+                  testing, research, statistical and survey purposes;
+                </li>
+                <li>
+                  to improve our Website and the Mobile application to ensure
+                  that content is presented in the most effective manner for you
+                  and for your Device;
+                </li>
+                <li>
+                  to allow you to participate in interactive features of our
+                  service, when you choose to do so;
+                </li>
+                <li>
+                  as part of our efforts to keep our Website and the Mobile
+                  application safe and secure;
+                </li>
+                <li>
+                  to measure or understand the effectiveness of advertising we
+                  serve to you and others, and to deliver relevant advertising
+                  to you.
+                </li>
+              </ul>
+              <p className="my-6">
+                (c) <strong> Third Party Information:</strong> We will use this
+                information:{" "}
+              </p>
+              <ul className="list-disc">
+                <li>
+                  making decisions about whether to agree to approve the Mobile
+                  application, Website or service.
+                </li>
+              </ul>
+            </li>
+            <li>
+              We may associate any category of information with any other
+              category of information and will treat the combined information as
+              personal data in accordance with this policy for as long as it is
+              combined.
+            </li>
+            <li>
+              We have set out below, in a table format, a description of all the
+              ways we use your personal data as stated above, and which of the
+              legal bases we rely on to do so. We have also identified what our
+              legitimate interests are where appropriate. <br />— Note that we
+              may process your personal data for more than one lawful reason
+              depending on the specific purpose for which we are using your
+              data.
+            </li>
+            <li>
+              <strong>What do we mean, when we say:</strong> <br />— Legitimate
+              Interest: this means the interest of ours as a business in
+              conducting and managing POWERUP platform to enable us to provide
+              to you the POWERUP services. We make sure we consider and balance
+              any potential impact on you (both positive and negative) and your
+              rights before we process your personal data for our legitimate
+              interests. We do not use your personal data for activities where
+              our interests are overridden by the impact on you (unless we have
+              your consent or are otherwise required or permitted by law).{" "}
+              <br />— Fulfilling a Contract: this means processing your data
+              where it is necessary for the performance of a contract to which
+              you are a party or to take steps at your request before entering
+              into such a contract. <br />— Consent: this means that we will
+              only process your personal data for certain specific purposes if
+              we obtain your consent before such processing, for example in
+              order to collect and process your location data and/or to send you
+              notifications. We normally ask for your consent the use of your
+              personal data in order to provide our services to you when you
+              download the Mobile application. Please note that if you do not
+              provide your consent for this purpose, or withdraw it at a later
+              stage, we may be unable to provide our services to you.
+            </li>
+            <li>
+              <strong>Opting out.</strong> You can follow the opt-out links on any marketing
+              message sent to you. In case of Third Party Information gathered
+              via cookies you have the right to opt-out through the opt-out
+              options provided by the relevant third party. For more
+              information, please see the Cookie Policy.
+            </li>
+            <li>
+              <strong>Change of purpose.</strong> We will only use your personal data for the
+              purposes for which we collected it, unless we reasonably consider
+              that we need to use it for another reason and that reason is
+              compatible with the original purpose. 
+            </li>
+            <li>
+              Please note that we may process your personal data without your
+              knowledge or consent, in compliance with the above rules, where
+              this is required or permitted by law.
+            </li>
+          </ol>
         </section>
       </main>
     </div>
