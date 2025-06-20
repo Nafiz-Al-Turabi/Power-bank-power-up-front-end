@@ -539,6 +539,18 @@ export default function PrivacyPolicyPage() {
           </h3>
           <p>We retain your information for as long as it is necessary for the performance of the contract we have with you. If you no longer want us to use your information you can send a request to compliance@powerup.eu.com. Please note that in this case we may be unable to provide our services to you.</p>
         </section>
+
+        <section className="STORAGE SECURITY mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            5. STORAGE SECURITY
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>The hosting facilities for our Website and the Mobile application infrastructure are situated within the EU.</li>
+            <li>The data that we collect from you will be transferred to, and stored at, a destination inside the European Economic Area (EEA).</li>
+            <li>All information you provide to us is stored on our secure servers. Any transmission of information is encrypted using TLS technology, the current standard in secure communications over the Internet. Unfortunately, the transmission of information via the Internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk.</li>
+            <li>Once we have received your information, we will use strict procedures and security features to try to prevent unauthorized access. </li>
+          </ol>
+        </section>
       </main>
     </div>
   );
