@@ -641,6 +641,19 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
+        <section className="OTHER RIGHTS AND OBLIGATIONS OF THE PARTIES mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            7. OTHER RIGHTS AND OBLIGATIONS OF THE PARTIES
+          </h3>
+          <ol className="list-decimal ml-6">
+                <li>The User can specify the email address independently in the Mobile application.</li>
+                <li>In case of loss of access to the Mobile application or if there are reasons to believe that a third party has obtained access to the Mobile application, the User is obliged to contact the Support Service by phone or email with a request to block access to his/her Personal Account. The risks associated with non-fulfillment of this obligation are borne by the User.</li>
+                <li>The User is obliged immediately to (no later than one calendar day) inform the Company about the loss and/or damage to the Power Bank. In case of non-fulfillment of this obligation, the Company has the right to demand from the User to reimburse the cost of the Power Bank, regardless of the reasons and circumstances of its loss or damage.</li>
+                <li>The Company has the right, in case of violation by the User of the Agreement, to terminate the Agreement by blocking the User's access to the Personal Account or, at its discretion, limit the possibility of obtaining another Power Bank.</li>
+                <li>The Company has the right to assign its rights to collect debts from the User to any third parties without the User's additional consent.</li>
+                <li>The Company reserves the right to terminate the provision of services and block the possibility of receiving services in the future to the User who has made threats or offensive statements to the employees of the Company.</li>
+          </ol>
+        </section>
       </main>
     </div>
   );
