@@ -11,7 +11,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
     <div>
       <div className="max-w-[1120px] mx-auto px-4 2xl:px-0">
         <div className="flex justify-center relative pt-10">
-          <Link href="/">
+          <Link href="/" className="flex items-center cursor-pointer">
             <Image
               src={logo}
               alt="logo"
