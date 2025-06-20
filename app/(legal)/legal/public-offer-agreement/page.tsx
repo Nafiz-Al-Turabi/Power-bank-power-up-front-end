@@ -63,50 +63,143 @@ export default function PublicOfferAgreementPage() {
               in accordance with the terms of the Agreement.
             </li>
             <li>
-              <strong>Company</strong> – is a person who has a sublicense to use the "POWERUP" platform for commercial purposes.
+              <strong>Company</strong> – is a person who has a sublicense to use
+              the "POWERUP" platform for commercial purposes.
             </li>
             <li>
-              <strong>Power Bank Rental Station (Station)</strong> – a device that provides the issuance and reception of Power Banks to Users.
+              <strong>Power Bank Rental Station (Station)</strong> – a device
+              that provides the issuance and reception of Power Banks to Users.
             </li>
             <li>
-              <strong>Power Bank</strong> – a portable charger (battery) for mobile devices.
+              <strong>Power Bank</strong> – a portable charger (battery) for
+              mobile devices.
             </li>
             <li>
-              <strong>"POWERUP" Mobile application (Mobile application)</strong> – a software program designed to register a User, search for Power Bank Rental Stations on the map, get a Power Bank for rent, manage settings and get the necessary information when using the Power Bank, and available for download through the following application stores: App Store (itunes.apple.com) and Google Play (play.google.com).
+              <strong>"POWERUP" Mobile application (Mobile application)</strong>{" "}
+              – a software program designed to register a User, search for Power
+              Bank Rental Stations on the map, get a Power Bank for rent, manage
+              settings and get the necessary information when using the Power
+              Bank, and available for download through the following application
+              stores: App Store (itunes.apple.com) and Google Play
+              (play.google.com).
             </li>
             <li>
-              <strong>"POWERUP" platform</strong> – a unified software and hardware complex developed which includes a number of interrelated objects (software and technical developments), as well as the "POWERUP" Mobile application, the Power Bank Rental Stations and Power Banks.
+              <strong>"POWERUP" platform</strong> – a unified software and
+              hardware complex developed which includes a number of interrelated
+              objects (software and technical developments), as well as the
+              "POWERUP" Mobile application, the Power Bank Rental Stations and
+              Power Banks.
             </li>
             <li>
               <strong>Parties</strong> – the Company and the User.
             </li>
             <li>
-              <strong>Personal Account</strong> – a closed section of "POWERUP" Mobile application contained the User's personal data and information about the rental and services purchased by the User.
+              <strong>Personal Account</strong> – a closed section of "POWERUP"
+              Mobile application contained the User's personal data and
+              information about the rental and services purchased by the User.
             </li>
             <li>
-              <strong>Website</strong> – <a className="underline hover:text-green-600 duration-300" target="_blank" href="https://powerup.eu.com ">https://powerup.eu.com </a>
+              <strong>Website</strong> –{" "}
+              <a
+                className="underline hover:text-green-600 duration-300"
+                target="_blank"
+                href="https://powerup.eu.com "
+              >
+                https://powerup.eu.com 
+              </a>
             </li>
           </ol>
         </section>
         <section className="SUBJECT mb-12">
           <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
-           1. SUBJECT
+            1. SUBJECT
           </h3>
           <ol className="list-decimal ml-6">
-            <li>The Company undertakes to provide the User, upon request, with an access to the "POWERUP" platform, through which the User has an opportunity to take a Power Bank for a fee for temporary use under the terms of this Agreement.</li>
-            <li>By making acceptance of the Offer due to the order specified in section 2 of the Offer, the User fully agrees with all the provisions of this Offer and enters into the Agreement.</li>
-            <li>A detailed description of the Power Bank rental process, the Agreement price, possible discounts, technical requirements for the equipment and/or software of the User who wants to use the "POWERUP” platform, are shown on the Mobile application. This information is an integral part of the Agreement. The User confirms that prior to the conclusion of the Agreement, he/she has read the specified information, understands its content and agrees with it. By performing the actions specified in Section 3 hereof, the User enters into an Agreement.</li>
-            <li>The Company has the right to involve third parties in the process of execution of the Agreement at its discretion without the User’s consent.</li>
-            <li>The User, who has not read the terms of the Agreement in a timely manner, assumes all risks of adverse consequences associated with this.</li>
-            <li>The Company grants the User a limited, revocable, non-exclusive, non-transferable license for the right to use the "POWERUP" platform <strong>on the territory of the Republic of Cyprus.</strong></li>
+            <li>
+              The Company undertakes to provide the User, upon request, with an
+              access to the "POWERUP" platform, through which the User has an
+              opportunity to take a Power Bank for a fee for temporary use under
+              the terms of this Agreement.
+            </li>
+            <li>
+              By making acceptance of the Offer due to the order specified in
+              section 2 of the Offer, the User fully agrees with all the
+              provisions of this Offer and enters into the Agreement.
+            </li>
+            <li>
+              A detailed description of the Power Bank rental process, the
+              Agreement price, possible discounts, technical requirements for
+              the equipment and/or software of the User who wants to use the
+              "POWERUP” platform, are shown on the Mobile application. This
+              information is an integral part of the Agreement. The User
+              confirms that prior to the conclusion of the Agreement, he/she has
+              read the specified information, understands its content and agrees
+              with it. By performing the actions specified in Section 3 hereof,
+              the User enters into an Agreement.
+            </li>
+            <li>
+              The Company has the right to involve third parties in the process
+              of execution of the Agreement at its discretion without the User’s
+              consent.
+            </li>
+            <li>
+              The User, who has not read the terms of the Agreement in a timely
+              manner, assumes all risks of adverse consequences associated with
+              this.
+            </li>
+            <li>
+              The Company grants the User a limited, revocable, non-exclusive,
+              non-transferable license for the right to use the "POWERUP"
+              platform 
+              <strong>on the territory of the Republic of Cyprus.</strong>
+            </li>
           </ol>
         </section>
         <section className="ACCEPTANCE mb-12">
           <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
-          2. ACCEPTANCE AND CONTRACTING OF THE OFFER
+            2. ACCEPTANCE AND CONTRACTING OF THE OFFER
           </h3>
           <ol className="list-decimal ml-6">
-            
+            <li className="mb-6">
+              <ul className="list-disc ml-1">
+                The User makes acceptance of the Offer by:
+                <li>
+                  filling out the registration form in the Telegram bot or in
+                  the "POWERUP" Mobile application, specifying the phone number
+                  on which the call will be made for verification;
+                </li>
+                <li>
+                  confirming he/she owns the phone number by entering the
+                  digital code received through the phone call to the phone
+                  number specified by the User;
+                </li>
+                <li>accepting this Agreement and Privacy Policy, and</li>
+                <li>clicking the "Sign in" button.</li>
+              </ul>
+            </li>
+            <li>
+              Acceptance of the Offer is the totality of the User's actions
+              described above.
+            </li>
+            <li>
+              The User guarantees that he/she provides complete and reliable
+              information, including his/her own email address, a mobile phone
+              number registered for him/her, a bank card issued in his/her name.
+            </li>
+            <li>
+              The Company is not responsible for the User's use of the third
+              parties' personal data, payment details (bank cards, Apple pay /
+              Google pay accounts), and is not obliged to establish the
+              correspondence of the User's identity and the personal and contact
+              data provided by him.{" "}
+            </li>
+            <li>
+              In the event of disputes related to the determination of the
+              ownership of the data specified by the User, the Company proceeds
+              from the good faith of the User's actions to provide personal
+              data, bank card information, phone number, of which he/she is the
+              owner.
+            </li>
           </ol>
         </section>
       </main>
