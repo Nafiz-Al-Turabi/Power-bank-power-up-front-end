@@ -358,10 +358,16 @@ export default function PublicOfferAgreementPage() {
                 60°C (140°F) (sauna/sauna/infrared sauna); <br />— eat;
               </li>
               <li>
-                connect more than two mobile devices to the Power Bank at the same time.
+                connect more than two mobile devices to the Power Bank at the
+                same time.
               </li>
               <li>
-                The Company hereby notifies, and the User understands and agrees that improper use / misuse of the Power Bank may cause danger to the life and health of the User, third parties, animals, environmental pollution. The User understands and agrees that he is notified of the safety measures when using the Power Bank and is solely responsible for his/her actions.
+                The Company hereby notifies, and the User understands and agrees
+                that improper use / misuse of the Power Bank may cause danger to
+                the life and health of the User, third parties, animals,
+                environmental pollution. The User understands and agrees that he
+                is notified of the safety measures when using the Power Bank and
+                is solely responsible for his/her actions.
               </li>
               <li>
                 After using the Power Bank, the User is obliged to return it in
@@ -377,18 +383,92 @@ export default function PublicOfferAgreementPage() {
           </div>
           <div className="mb-6">
             <h4 className="text-lg lg:text-xl font-semibold mb-4">
-             3.5 Return of the Power Bank 
+              3.5 Return of the Power Bank
             </h4>
             <ol className="list-decimal ml-6">
-              <li>The User returns the Power Bank that was received by the User for the corresponding order. The number of the Power Banks returned by the User must match the number of the Power Bank that he/she received. To return the Power Bank, you need to find a Power Bank Rental Station with a free cell.</li>
-              <li>Directly near the Power Bank Rental Station, it is necessary to prepare the Power Bank for return (put the connectors in the appropriate slots, make sure that the Power Bank housing is not damaged).</li>
-              <li>Then, you need to go to the "POWERUP" Mobile application and on the rental screen, which contains information about when the current tariff ends, the User's order number and the conditions of the next tariff, click the "Take Charge" button. The screen "Point the scanner at the QR code of the Station" will appear. The User scans the QR code of the Station. The number is placed on the central part of the Station. After that, the User can put the Power Bank in one of the cells of the Station. It is necessary to wait for the response in the "POWERUP" Mobile application with a message about the return of the Power Bank. In case of failures, when, with proper fulfillment of the requirements for the return of the Power Bank by the User specified in this paragraph, the User does not receive a response from the Mobile application, he/she needs to contact the Support Service, report the incident, specifying the number of the Station and act in accordance with the instructions of the representative of the Company. The number for contacting the Support Service is specified in the Mobile application.</li>
-              <li>The rental period is considered over, and the Power Bank is considered returned at the time of the following message received in the Mobile application: "Thank you! The Power Bank has been successfully returned." From the moment the Power Bank is put into the Station until the information is processed by the system and the appearance of the indicated inscription about the successful return of the Power Bank, it may take from a few seconds to 3 minutes. The specified time for processing the return of the Power Bank is included in the rental period by the User and is subject to payment according to the Power Bank rental rate selected by the User.</li>
-              <li>If the User returns the Power Bank, but the Station does not detect it (the message "Thank you! The Power Bank has been successfully returned" is not displayed for more than 3 minutes), the User is obliged to inform the Support Service and act in accordance with the instructions of the Company's representative. The time of completion of the lease and the return of the Power Bank are determined by the Support Service based on the actual circumstances.</li>
-              <li>If the problem with the return arose due to damage or loss of the Power Bank, the User is responsible according to the terms of the Agreement.</li>
-              <li>In case of damage or loss of the Power Bank, the User is obliged to inform the Support Service about it. Until the moment of notification to the Support Service about the incident, the order is active and is subject to payment by the User in accordance with section 4 of the Agreement. In case of damage or loss of the Power Bank by the User, the Company also has the right to deduct a fine from the User's bank card in the amount established in accordance with Section 7 of the Agreement.</li>
-              <li>If the User decides to purchase a Power Bank for further personal use, he must contact the Support Service for information on further actions and suspension of the funds’ deductions for using the Power Bank.</li>
-              <li>If the User returns a Power Bank other than the one previously received by order (with a different Power Bank number), the User's order will be considered valid until the return of the received Power Bank.</li>
+              <li>
+                The User returns the Power Bank that was received by the User
+                for the corresponding order. The number of the Power Banks
+                returned by the User must match the number of the Power Bank
+                that he/she received. To return the Power Bank, you need to find
+                a Power Bank Rental Station with a free cell.
+              </li>
+              <li>
+                Directly near the Power Bank Rental Station, it is necessary to
+                prepare the Power Bank for return (put the connectors in the
+                appropriate slots, make sure that the Power Bank housing is not
+                damaged).
+              </li>
+              <li>
+                Then, you need to go to the "POWERUP" Mobile application and on
+                the rental screen, which contains information about when the
+                current tariff ends, the User's order number and the conditions
+                of the next tariff, click the "Take Charge" button. The screen
+                "Point the scanner at the QR code of the Station" will appear.
+                The User scans the QR code of the Station. The number is placed
+                on the central part of the Station. After that, the User can put
+                the Power Bank in one of the cells of the Station. It is
+                necessary to wait for the response in the "POWERUP" Mobile
+                application with a message about the return of the Power Bank.
+                In case of failures, when, with proper fulfillment of the
+                requirements for the return of the Power Bank by the User
+                specified in this paragraph, the User does not receive a
+                response from the Mobile application, he/she needs to contact
+                the Support Service, report the incident, specifying the number
+                of the Station and act in accordance with the instructions of
+                the representative of the Company. The number for contacting the
+                Support Service is specified in the Mobile application.
+              </li>
+              <li>
+                The rental period is considered over, and the Power Bank is
+                considered returned at the time of the following message
+                received in the Mobile application: "Thank you! The Power Bank
+                has been successfully returned." From the moment the Power Bank
+                is put into the Station until the information is processed by
+                the system and the appearance of the indicated inscription about
+                the successful return of the Power Bank, it may take from a few
+                seconds to 3 minutes. The specified time for processing the
+                return of the Power Bank is included in the rental period by the
+                User and is subject to payment according to the Power Bank
+                rental rate selected by the User.
+              </li>
+              <li>
+                If the User returns the Power Bank, but the Station does not
+                detect it (the message "Thank you! The Power Bank has been
+                successfully returned" is not displayed for more than 3
+                minutes), the User is obliged to inform the Support Service and
+                act in accordance with the instructions of the Company's
+                representative. The time of completion of the lease and the
+                return of the Power Bank are determined by the Support Service
+                based on the actual circumstances.
+              </li>
+              <li>
+                If the problem with the return arose due to damage or loss of
+                the Power Bank, the User is responsible according to the terms
+                of the Agreement.
+              </li>
+              <li>
+                In case of damage or loss of the Power Bank, the User is obliged
+                to inform the Support Service about it. Until the moment of
+                notification to the Support Service about the incident, the
+                order is active and is subject to payment by the User in
+                accordance with section 4 of the Agreement. In case of damage or
+                loss of the Power Bank by the User, the Company also has the
+                right to deduct a fine from the User's bank card in the amount
+                established in accordance with Section 7 of the Agreement.
+              </li>
+              <li>
+                If the User decides to purchase a Power Bank for further
+                personal use, he must contact the Support Service for
+                information on further actions and suspension of the funds’
+                deductions for using the Power Bank.
+              </li>
+              <li>
+                If the User returns a Power Bank other than the one previously
+                received by order (with a different Power Bank number), the
+                User's order will be considered valid until the return of the
+                received Power Bank.
+              </li>
             </ol>
           </div>
         </section>
@@ -397,23 +477,142 @@ export default function PublicOfferAgreementPage() {
             4. AGREEMENT PRICE and PAYMENT PROCEDURE
           </h3>
           <ol className="list-decimal ml-6">
-           <li>The Agreement price is set in the form of a license fee and the cost of using the Power Bank for the time interval selected by the User in accordance with the rate set for the corresponding Power Bank Rental Station and displayed in the Mobile application. The Agreement price includes VAT.</li>
-           <li>The license fee for access to the "POWERUP" platform is 80% of the amount paid by the User at the appropriate rate.</li>
-           <li>The exact cost of a minute / half hour / hour / day / week / month / six months / year or other time interval determined by the rate is indicated in the "POWERUP" Mobile application / on the Power Bank Rental Station. The Company has the right to set the maximum Agreement price.</li>
-           <li>Upon acceptance of the Offer in accordance with clause 2 of the Agreement, the User expresses his unconditional consent to the sending by the Company of orders, requests, demands to the User's bank, as well as to the non-acceptance deduction of funds constituting the license fee, lease payments, fines and other payments stipulated by the Agreement.</li>
-           <li>The Company has the right to verify the validity of the User's bank card by freezing/unfreezing the funds on the bank card account in the amount not exceeding the cost of the Power Bank specified in clause 7.2. of the Agreement.  If the User takes the Power Bank in a Power Bank Rental Station with a free trial period of use and returns the Power Bank without damage before the expiration of the specified trial period, then funds are not debited from the User's bank card.  If the Power Bank was returned before the end of the set free trial period, however, the Power Bank Rental Station was detecting the returned Power Bank for more than 1-3 minutes, and funds were debited from the User's bank card, the Company returns the debited funds to the same bank card of the User. The Company has the right to refuse to issue a Power Bank to the User in the absence of funds necessary for card validation. All payments under the Agreement are made by debiting funds from the User's bank card, the details of which are specified by the User in the Mobile application. Such payments do not require additional confirmation from the User.</li>
-           <li>In order to guarantee a payment of the license fee, as well as rent, the Company has the right to block an amount of up to EUR20 on the User's card at the time of receiving the Power Bank by the User. The Company removes the block after the full payment of the license fee and rent by the User, and the funds remain on the User's bank card.</li>
-           <li>Payment can be made via bank cards issued by the payment processing networks (Visa, MasterCard, etc.) specified in the User's Personal Account and/or on the Mobile application. </li>
-           <li>If the User does not provide the correct bank card details with a positive balance at the time of the start of using the Power Bank, the Company has the right to refuse to provide the Power Bank to the User or to issue the Power Bank with the subsequent deduction of the debt from the User's bank card.</li>
-           <li>Payment for the use of the Power Bank shall be made in advance.</li>
-           <li>In the “POWERUP” Mobile application, the time counter displays at what time the next payment will be debited and the amount to be paid.</li>
-           <li>After debiting funds from the User's bank card, a payment confirmation document will be available in the Mobile application or will be sent to the User to the email address specified by the User in the Mobile application.</li>
-           <li>If the payment cannot be debited due to insufficient funds on the bank card, incorrect entry of bank card details, expiration of the bank card, or other reasons, the Company notifies the User about this through a message in the Personal Account, e-mail. The Company has the right to inform the User about the need to pay the arrears for using the Power Bank using the phone number provided during the registration at the “POWERUP” platform.</li>
-           <li>The User is charged for the use of the Power Bank until the return of the Power Bank, in the amount specified in clause 7.4. of this Agreement.</li>
-           <li>The Company has the right to debit the amount of accrued debt from the User's bank card at the time the User eliminates the facts preventing the funds from being debited, as well as at any time before the User returns the Power Bank.</li>
-           <li>If the User does not remove the obstacles to payment within 24 hours from the moment of notifying the User of the impossibility of debiting the payment, the Company has the right to terminate the Agreement by blocking the User's access to the Mobile application and limiting the possibility of later obtaining another Power Bank.</li>
-           <li>If the User returns the Power Bank before the end of the paid time of use, there is no refund for the unused rental period. </li>
-           <li> The Company has the right at its discretion to choose the third parties for the provision of the payments processing services.</li>
+            <li>
+              The Agreement price is set in the form of a license fee and the
+              cost of using the Power Bank for the time interval selected by the
+              User in accordance with the rate set for the corresponding Power
+              Bank Rental Station and displayed in the Mobile application. The
+              Agreement price includes VAT.
+            </li>
+            <li>
+              The license fee for access to the "POWERUP" platform is 80% of the
+              amount paid by the User at the appropriate rate.
+            </li>
+            <li>
+              The exact cost of a minute / half hour / hour / day / week / month
+              / six months / year or other time interval determined by the rate
+              is indicated in the "POWERUP" Mobile application / on the Power
+              Bank Rental Station. The Company has the right to set the maximum
+              Agreement price.
+            </li>
+            <li>
+              Upon acceptance of the Offer in accordance with clause 2 of the
+              Agreement, the User expresses his unconditional consent to the
+              sending by the Company of orders, requests, demands to the User's
+              bank, as well as to the non-acceptance deduction of funds
+              constituting the license fee, lease payments, fines and other
+              payments stipulated by the Agreement.
+            </li>
+            <li>
+              The Company has the right to verify the validity of the User's
+              bank card by freezing/unfreezing the funds on the bank card
+              account in the amount not exceeding the cost of the Power Bank
+              specified in clause 7.2. of the Agreement.  If the User takes the
+              Power Bank in a Power Bank Rental Station with a free trial period
+              of use and returns the Power Bank without damage before the
+              expiration of the specified trial period, then funds are not
+              debited from the User's bank card.  If the Power Bank was returned
+              before the end of the set free trial period, however, the Power
+              Bank Rental Station was detecting the returned Power Bank for more
+              than 1-3 minutes, and funds were debited from the User's bank
+              card, the Company returns the debited funds to the same bank card
+              of the User. The Company has the right to refuse to issue a Power
+              Bank to the User in the absence of funds necessary for card
+              validation. All payments under the Agreement are made by debiting
+              funds from the User's bank card, the details of which are
+              specified by the User in the Mobile application. Such payments do
+              not require additional confirmation from the User.
+            </li>
+            <li>
+              In order to guarantee a payment of the license fee, as well as
+              rent, the Company has the right to block an amount of up to EUR20
+              on the User's card at the time of receiving the Power Bank by the
+              User. The Company removes the block after the full payment of the
+              license fee and rent by the User, and the funds remain on the
+              User's bank card.
+            </li>
+            <li>
+              Payment can be made via bank cards issued by the payment
+              processing networks (Visa, MasterCard, etc.) specified in the
+              User's Personal Account and/or on the Mobile application. 
+            </li>
+            <li>
+              If the User does not provide the correct bank card details with a
+              positive balance at the time of the start of using the Power Bank,
+              the Company has the right to refuse to provide the Power Bank to
+              the User or to issue the Power Bank with the subsequent deduction
+              of the debt from the User's bank card.
+            </li>
+            <li>
+              Payment for the use of the Power Bank shall be made in advance.
+            </li>
+            <li>
+              In the “POWERUP” Mobile application, the time counter displays at
+              what time the next payment will be debited and the amount to be
+              paid.
+            </li>
+            <li>
+              After debiting funds from the User's bank card, a payment
+              confirmation document will be available in the Mobile application
+              or will be sent to the User to the email address specified by the
+              User in the Mobile application.
+            </li>
+            <li>
+              If the payment cannot be debited due to insufficient funds on the
+              bank card, incorrect entry of bank card details, expiration of the
+              bank card, or other reasons, the Company notifies the User about
+              this through a message in the Personal Account, e-mail. The
+              Company has the right to inform the User about the need to pay the
+              arrears for using the Power Bank using the phone number provided
+              during the registration at the “POWERUP” platform.
+            </li>
+            <li>
+              The User is charged for the use of the Power Bank until the return
+              of the Power Bank, in the amount specified in clause 7.4. of this
+              Agreement.
+            </li>
+            <li>
+              The Company has the right to debit the amount of accrued debt from
+              the User's bank card at the time the User eliminates the facts
+              preventing the funds from being debited, as well as at any time
+              before the User returns the Power Bank.
+            </li>
+            <li>
+              If the User does not remove the obstacles to payment within 24
+              hours from the moment of notifying the User of the impossibility
+              of debiting the payment, the Company has the right to terminate
+              the Agreement by blocking the User's access to the Mobile
+              application and limiting the possibility of later obtaining
+              another Power Bank.
+            </li>
+            <li>
+              If the User returns the Power Bank before the end of the paid time
+              of use, there is no refund for the unused rental period. 
+            </li>
+            <li>
+              {" "}
+              The Company has the right at its discretion to choose the third
+              parties for the provision of the payments processing services.
+            </li>
+          </ol>
+        </section>
+        <section className="TERMS OF THE AGREEMENT  mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            5. TERMS OF THE AGREEMENT 
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>The Agreement is concluded for an indefinite period.</li>
+            <li>
+              The term of the Agreement (the term of continuous use of one Power
+              Bank) is determined by the moment of return of the Power Bank or
+              closing of the order through contacting the Support Service.
+            </li>
+            <li>
+              The loss of the Power Bank by the User is a violation of the
+              Agreement, and the Company has the right to terminate the
+              Agreement by blocking the User's access to the Mobile application
+              and apply liability measures stipulated by the Agreement.
+            </li>
           </ol>
         </section>
       </main>
