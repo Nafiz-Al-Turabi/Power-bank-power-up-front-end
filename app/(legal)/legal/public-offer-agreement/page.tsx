@@ -766,6 +766,20 @@ export default function PublicOfferAgreementPage() {
             </li>
           </ol>
         </section>
+        <section className="COMPLAINTS mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            10. COMPLAINTS
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>
+              If you feel dissatisfied with any aspect of our service, then in
+              the first instance please contact us at info@powerup.eu.com or via
+              Customer Service. We will immediately carry out an investigation
+              of your complaint and will provide a written response within 15
+              (fifteen) days from the date of its receipt. 
+            </li>
+          </ol>
+        </section>
       </main>
     </div>
   );
