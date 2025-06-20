@@ -551,6 +551,24 @@ export default function PrivacyPolicyPage() {
             <li>Once we have received your information, we will use strict procedures and security features to try to prevent unauthorized access. </li>
           </ol>
         </section>
+
+        <section className="YOUR LEGAL RIGHTS mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            6. YOUR LEGAL RIGHTS
+          </h3>
+          <p className="mb-4">
+            You have rights under data protection laws in relation to your personal data. Please see below to find out more about these rights:‍
+          </p>
+          <ul className="space-y-1">
+            <li><strong>The right to access</strong> – You have the right to request us for copies of your personal data.</li>
+            <li><strong>The right to rectification </strong>– You have the right to request that the Company correct any information you believe is inaccurate. You also have the right to request the Company to complete the information you believe is incomplete.</li>
+            <li><strong>The right to erasure</strong> – You have the right to request that the Company erase your personal data, under certain conditions.</li>
+            <li><strong>The right to restrict processing</strong> – You have the right to request that the Company restrict the processing of your personal data, under certain conditions.</li>
+            <li><strong>The right to object to processing</strong> – You have the right to object to the Company’s processing of your personal data, under certain conditions.</li>
+            <li><strong>The right to data portability</strong> – You have the right to request that the Company transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li>
+            <li>If you make a request, we have one month to respond to you. </li>
+          </ul>
+        </section>
       </main>
     </div>
   );
