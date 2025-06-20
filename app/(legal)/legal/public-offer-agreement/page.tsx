@@ -646,12 +646,97 @@ export default function PublicOfferAgreementPage() {
             7. OTHER RIGHTS AND OBLIGATIONS OF THE PARTIES
           </h3>
           <ol className="list-decimal ml-6">
-                <li>The User can specify the email address independently in the Mobile application.</li>
-                <li>In case of loss of access to the Mobile application or if there are reasons to believe that a third party has obtained access to the Mobile application, the User is obliged to contact the Support Service by phone or email with a request to block access to his/her Personal Account. The risks associated with non-fulfillment of this obligation are borne by the User.</li>
-                <li>The User is obliged immediately to (no later than one calendar day) inform the Company about the loss and/or damage to the Power Bank. In case of non-fulfillment of this obligation, the Company has the right to demand from the User to reimburse the cost of the Power Bank, regardless of the reasons and circumstances of its loss or damage.</li>
-                <li>The Company has the right, in case of violation by the User of the Agreement, to terminate the Agreement by blocking the User's access to the Personal Account or, at its discretion, limit the possibility of obtaining another Power Bank.</li>
-                <li>The Company has the right to assign its rights to collect debts from the User to any third parties without the User's additional consent.</li>
-                <li>The Company reserves the right to terminate the provision of services and block the possibility of receiving services in the future to the User who has made threats or offensive statements to the employees of the Company.</li>
+            <li>
+              The User can specify the email address independently in the Mobile
+              application.
+            </li>
+            <li>
+              In case of loss of access to the Mobile application or if there
+              are reasons to believe that a third party has obtained access to
+              the Mobile application, the User is obliged to contact the Support
+              Service by phone or email with a request to block access to
+              his/her Personal Account. The risks associated with
+              non-fulfillment of this obligation are borne by the User.
+            </li>
+            <li>
+              The User is obliged immediately to (no later than one calendar
+              day) inform the Company about the loss and/or damage to the Power
+              Bank. In case of non-fulfillment of this obligation, the Company
+              has the right to demand from the User to reimburse the cost of the
+              Power Bank, regardless of the reasons and circumstances of its
+              loss or damage.
+            </li>
+            <li>
+              The Company has the right, in case of violation by the User of the
+              Agreement, to terminate the Agreement by blocking the User's
+              access to the Personal Account or, at its discretion, limit the
+              possibility of obtaining another Power Bank.
+            </li>
+            <li>
+              The Company has the right to assign its rights to collect debts
+              from the User to any third parties without the User's additional
+              consent.
+            </li>
+            <li>
+              The Company reserves the right to terminate the provision of
+              services and block the possibility of receiving services in the
+              future to the User who has made threats or offensive statements to
+              the employees of the Company.
+            </li>
+          </ol>
+        </section>
+        <section className="LIABILITY OF THE PARTIES mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            8. LIABILITY OF THE PARTIES
+          </h3>
+          <ol className="list-decimal ml-6">
+            <li>
+              In case of non-fulfillment or improper fulfillment by the User of
+              the obligations to pay for the use of the Power Bank, the Company
+              has the right to deduct a penalty in the amount of 0.1% of the
+              debt amount for each day of delay from the User's bank card.
+            </li>
+            <li>
+              In case of damage or loss of the Power Bank, changes in the
+              appearance/ design of the Power Bank, including pasting with
+              stickers, the User is obliged to pay, and the Company has the
+              right to deduct a penalty in the amount of the cost of the Power
+              Bank of EUR60 from the User's bank card.
+            </li>
+            <li>
+              When the User uses the Power Bank for entrepreneurial or other
+              commercial purposes the Company has the right to deduct a penalty
+              of EUR60 from the User's bank card.
+            </li>
+            <li>
+              If the rental period of the Power Bank has expired, and the Power
+              Bank has not been returned by the User, then after 12 calendar
+              days the Company deducts from the User's bank card the cost of the
+              Power Bank in the amount of EUR60 and the rental fee for 12
+              calendar days, and closes the order.
+            </li>
+            <li>
+              The Company is not liable for damage caused to the property and
+              health of the User and/or other third parties and for any other
+              consequences if the User uses the Power Bank in a faulty condition
+              or if the User does not comply with the Safety measures specified
+              in the Agreement.
+            </li>
+            <li>
+              By accepting the terms of the Offer and receiving the Power Bank,
+              the User guarantees that he/she is the bona fide owner of the
+              phone number, bank card used by him/her. The User assumes the
+              risks of using bank card details, telephone numbers not
+              issued/registered in his/her name, as well as the compensation for
+              possible losses incurred by the bona fide owner and Company.
+            </li>
+            <li>
+              By accepting the terms of the Offer and receiving the Power Bank,
+              the User agrees and authorizes the Company to deduct funds from
+              the User's bank card in accordance with this section “8.
+              Responsibility of the parties” in case of violation by the User of
+              the terms of this Offer.
+            </li>
           </ol>
         </section>
       </main>
