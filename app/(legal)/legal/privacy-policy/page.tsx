@@ -532,6 +532,13 @@ export default function PrivacyPolicyPage() {
             </li>
           </ol>
         </section>
+
+        <section className="RETAINING YOUR INFORMATION mb-12">
+          <h3 className="uppercase font-bold text-xl lg:text-2xl mb-4">
+            4. RETAINING YOUR INFORMATION
+          </h3>
+          <p>We retain your information for as long as it is necessary for the performance of the contract we have with you. If you no longer want us to use your information you can send a request to compliance@powerup.eu.com. Please note that in this case we may be unable to provide our services to you.</p>
+        </section>
       </main>
     </div>
   );
