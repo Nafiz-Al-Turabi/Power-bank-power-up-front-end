@@ -107,14 +107,72 @@ export default function PrivacyPolicyPage() {
               User of our Mobile application and its services (“User”).
             </li>
           </ol>
-          <p className="text-lg lg:text-xl font-semibold mb-4 ">Controller</p>
-          <p>
-            For the purpose of the GDPR the data controller is POWERUP LIMITED
-            (t/a as POWERUP), a company established under the laws of the
-            Republic of Cyprus (company number HE 416108) and with registered
-            address: Irakleous, 1 SKY TOWER, 6th floor, office 604 Germasogeia,
-            4046, Limassol, Cyprus.
-          </p>
+          <div className="mb-8">
+            <p className="text-lg lg:text-xl font-semibold mb-4 ">Controller</p>
+            <p>
+              For the purpose of the GDPR the data controller is POWERUP LIMITED
+              (t/a as POWERUP), a company established under the laws of the
+              Republic of Cyprus (company number HE 416108) and with registered
+              address: Irakleous, 1 SKY TOWER, 6th floor, office 604
+              Germasogeia, 4046, Limassol, Cyprus.
+            </p>
+          </div>
+          <div className="mb-8">
+            <p className="text-lg lg:text-xl font-semibold mb-4 ">
+              Data Protection Officer
+            </p>
+            <ol className="list-decimal ml-6 space-y-4">
+              <li>
+                We have appointed a Data Protection Officer, who has a number of
+                important responsibilities including:
+                <ul className="list-disc ml-1">
+                  <li>
+                    monitoring POWERUP's compliance with the GDPR and other data
+                    protection laws;
+                  </li>
+                  <li>
+                    raising awareness of data protection issues, training
+                    POWERUP staff and conducting internal audits; and
+                  </li>
+                  <li>
+                    cooperating with supervisory authorities, such as the
+                    “Office of the Commissioner for Personal Data Protection” of
+                    the Republic of Cyprus (“Commissioner”) on our behalf.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                You can contact our DPO at: compliance@powerup.eu.com or POWERUP
+                LIMITED, Irakleous, 1 SKY TOWER, 6th floor, office 604
+                Germasogeia, 4046, Limassol, Cyprus.
+              </li>
+              <li>
+                If you have any questions about this Privacy Policy, including
+                any requests to exercise your legal rights, please e-mail
+                us compliance@powerup.eu.com
+              </li>
+            </ol>
+          </div>
+          <div className="mb-8">
+            <p className="text-lg lg:text-xl font-semibold mb-4 ">Complaints</p>
+            <ol className="list-decimal ml-6 space-y-4 mb-4">
+              <li>
+                You have the right to make a complaint at any time to the
+                Commissioner, the Cyprus supervisory authority for data
+                protection issues (https://www.dataprotection.gov.cy/). We
+                would, however, appreciate the chance to deal with your concerns
+                before you approach the Commissioner, so please contact us in
+                the first instance.
+              </li>
+            </ol>
+            <p>So that we're clear and there's no misunderstanding about how we
+              handle your personal data, we will:</p>
+            <ul className="list-disc ml-6">
+              <li>Always keep your data safe and private.</li>
+              <li>Never sell your data.</li>
+              <li>Allow you to manage and review your marketing choices at any time.</li>
+            </ul>
+          </div>
         </section>
       </main>
     </div>
