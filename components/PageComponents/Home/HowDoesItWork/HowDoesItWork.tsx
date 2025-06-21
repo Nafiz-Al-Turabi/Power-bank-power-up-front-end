@@ -16,7 +16,7 @@ const HowDoesItWork = () => {
           <span className="text-[#6A0DAD]">How</span> does it work? <br />{" "}
           Easier than texting at 1%.
         </h1>
-        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px]">
+        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px] px-[25px] md:px-0">
           Getting started takes less than a minute. Follow the steps and power
           up.
         </p>
