@@ -58,7 +58,7 @@ const  FAQSection = () => {
         <h1 className="text-[#202020] text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center lg:w-[25ch] xl:w-[26ch] mx-auto lg:leading-[72px]">
           Still have questions?
         </h1>
-        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px]">
+        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px] px-[25px] md:px-0">
           Getting started takes less than a minute. Follow the steps and power
           up.
         </p>
