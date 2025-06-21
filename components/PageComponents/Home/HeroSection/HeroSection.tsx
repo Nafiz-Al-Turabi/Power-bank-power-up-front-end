@@ -12,10 +12,10 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${heroBg.src})` }}
       >
         <h1 className="text-[#202020] text-2xl md:text-5xl lg:text-[3.75rem] font-bold title-font text-center w-full lg:w-[25ch] mx-auto md:mt-12 lg:leading-[72px]">
-          Charging just got smarter.{" "}
+          Charging smarter.{" "} <br />
           <span className="text-[#6A0DAD]">Cracow,</span> meet convenience.
         </h1>
-        <p className="text-baselg:text-lg text-center mt-4 lg:mt-6 lg:leading-[26px] w-full lg:w-[72ch] mx-auto">
+        <p className="text-baselg:text-lg text-center mt-4 lg:mt-6 lg:leading-[26px] w-full lg:w-[72ch] mx-auto px-[25px] md:px-0">
           We’ve all been there—low battery, no charger, nowhere to plug in.
           That’s why we created a network of power banks you can grab on the go.
           At restaurants, cafés, gyms. Find us wherever your day takes you. No
