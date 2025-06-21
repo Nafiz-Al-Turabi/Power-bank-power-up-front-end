@@ -42,8 +42,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between gap-6 lg:gap-20 bg-white rounded-lg p-4 md:p-6 lg:p-20 title-font ">
-      <div className="w-full lg:w-1/2 space-y-4">
+    <div className="flex flex-col md:flex-row justify-between gap-6 lg:gap-20 bg-white rounded-[30px] p-6 lg:p-20 title-font ">
+      <div className="w-full lg:w-1/2">
         {faq.map((item, index) => (
           <div
             key={index}
@@ -52,15 +52,15 @@ const FAQ = () => {
             }`}
           >
             <button
-              className="flex justify-between items-center w-full py-4 text-left font-semibold focus:outline-none"
+              className="flex justify-between items-center w-full text-left font-semibold focus:outline-none"
               onClick={() => toggleFAQ(index)}
             >
-              <span className="text-lg lg:text-2xl text-[#000000DE]">
+              <span className="text-lg lg:text-2xl text-[#000000DE] p-4 md:px-0">
                 {item.question}
               </span>
               <span>
                 <AiOutlinePlus
-                  className={`text-lg lg:text-2xl text-[#000000DE] duration-300 ${
+                  className={`text-2xl text-[#000000DE] duration-300 ${
                     openIndex === index ? "rotate-45" : ""
                   }`}
                 />
@@ -76,13 +76,13 @@ const FAQ = () => {
                  }
                             `}
             >
-              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-4 ">
+              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-4 px-4 md:px-0 pb-6">
                 {item.answer}
               </p>
-              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 ">
+              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 px-4 md:px-0">
                 {item.answer2}
               </p>
-              <div className="md:hidden py-4 mt-4 border-t border-[#6b6a6a66]">
+              <div className="md:hidden py-6 mt-4 border-t border-[#6b6a6a66]">
                 <Image
                   src={item.image}
                   alt="faq"
