@@ -1,6 +1,5 @@
 import BecomePartner from "@/components/PageComponents/Home/BecomePartner/BecomePartner";
 import FAQSection from "@/components/PageComponents/Home/FAQSection/FAQSection";
-import Gallery from "@/components/PageComponents/Home/Gallery/Gallery";
 import HeroSection from "@/components/PageComponents/Home/HeroSection/HeroSection";
 import HowDoesItWork from "@/components/PageComponents/Home/HowDoesItWork/HowDoesItWork";
 import Pricing from "@/components/PageComponents/Home/Pricing/Pricing";

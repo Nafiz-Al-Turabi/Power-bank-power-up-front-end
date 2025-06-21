@@ -82,7 +82,7 @@ const FAQ = () => {
               <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 px-4 md:px-0">
                 {item.answer2}
               </p>
-              <div className="md:hidden py-6 mt-4 border-t border-[#6b6a6a66]">
+              <div className="md:hidden py-6 mt-4 border-t border-[#6b6a6a66] px-4">
                 <Image
                   src={item.image}
                   alt="faq"
@@ -95,7 +95,7 @@ const FAQ = () => {
           </div>
         ))}
       </div>
-      <div className="hidden md:block">
+      <div className="hidden md:block ">
         {openIndex !== null && (
           <Image
             src={faq[openIndex].image}

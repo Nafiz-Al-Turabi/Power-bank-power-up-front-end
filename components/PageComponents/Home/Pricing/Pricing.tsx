@@ -11,7 +11,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
   duration,
   description,
 }) => (
-  <div className="border border-[#6A0DAD] rounded-2xl p-4 flex justify-center items-center h-[200px]">
+  <div className="bg-white border-2 border-[#6A0DAD] rounded-2xl p-4 flex justify-center items-center h-[200px]">
     <div className="text-center">
       <h1 className="font-bold mb-4">
         <span className="text-[28px]">{price} pln</span>/{" "}
@@ -50,7 +50,7 @@ const Pricing: React.FC = () => {
             <span className="text-[#6A0DAD]">Tiny</span> price. <br /> All
             across Cracow.
           </h1>
-          <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px]">
+          <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full lg:w-[72ch] mx-auto lg:leading-[26px] px-[25px] md:px-0">
             Check out our deals and stay powered all day.
           </p>
         </div>
