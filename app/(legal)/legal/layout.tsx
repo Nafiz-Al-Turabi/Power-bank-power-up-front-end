@@ -26,7 +26,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
               height={40}
             />
           </Link>
-          <div className="hidden lg:block absolute right-0 -top-4 mt-10">
+          <div className="absolute right-0 top-0 lg:-top-4 mt-10">
             <Language />
           </div>
         </div>
