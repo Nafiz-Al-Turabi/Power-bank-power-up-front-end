@@ -40,7 +40,7 @@ const faqs = [
   },
 ];
 
-const FAQSection = () => {
+const  FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggleFAQ = (index: number) => {
@@ -63,11 +63,11 @@ const FAQSection = () => {
           up.
         </p>
       </div>
-      <div className="max-w-[1120px] mx-auto py-10 px-4  md:px-15 md:py-20  text-white bg-[#000] rounded-[30px] mt-15 md:mt-20 relative z-10 ">
+      <div className="max-w-[1120px] mx-auto py-10 px-4  md:px-20 md:pb-10 md:p-15  text-white bg-[#000] rounded-[30px] mt-15 md:mt-20 relative z-10 ">
         {faqs.map((faq, idx) => (
-          <div key={idx} className={`${idx === 6 ? "border-t border-[#808080]" : "border-b border-[#808080]"}`}>
+          <div key={idx} className={`${idx === 6 ? "border-[#333333]" : "border-b border-[#333333]"}`}>
             <button
-              className="w-full flex justify-between items-center pt-4 pb-4 md:pb-6 focus:outline-none"
+              className="w-full flex justify-between items-center pt-4 pb-4 focus:outline-none"
               onClick={() => toggleFAQ(idx)}
             >
               <span className="text-lg md:text-xl font-semibold text-left">
@@ -89,7 +89,7 @@ const FAQSection = () => {
               }`}
             >
               {faq.answer && (
-                <p className="text-base md:text-lg text-[#dedede] ">
+                <p className="text-base md:text-lg text-[#dedede] pr-6 md:pr-8 ">
                   {faq.answer.split("\n").map((line, i) => (
                     <span key={i}>
                       {line}

@@ -76,19 +76,21 @@ const FAQ = () => {
                  }
                             `}
             >
-              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-4 px-4 md:px-0 pb-6">
-                {item.answer}
-              </p>
-              <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 px-4 md:px-0">
-                {item.answer2}
-              </p>
+              <div className="pr-4">
+                <p className=" text-base lg:text-lg text-[#000000DE] md:pb-4 px-4 md:px-0 pb-6">
+                  {item.answer}
+                </p>
+                <p className=" text-base lg:text-lg text-[#000000DE] md:pb-6 px-4 md:px-0">
+                  {item.answer2}
+                </p>
+              </div>
               <div className="md:hidden py-6 mt-4 border-t border-[#6b6a6a66] px-4">
                 <Image
                   src={item.image}
                   alt="faq"
                   width={398}
                   height={501}
-                  className="rounded-[20px] "
+                  className="rounded-[20px] w-full object-contain"
                 />
               </div>
             </div>
