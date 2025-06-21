@@ -14,7 +14,7 @@ const WhyUs = () => {
           <span className="text-[#6A0DAD]">Power</span> that fits everyone
           around.
         </h1>
-        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full md:w-[72ch] mx-auto lg:leading-[26px] mb-15 sm:mb-20">
+        <p className="text-base md:text-lg text-center mt-4 md:mt-6 w-full md:w-[72ch] mx-auto lg:leading-[26px] mb-15 sm:mb-20 px-[25px] md:px-0">
           We designed our power banks for real life , the kind where your
           battery is low, your charger is at home, and your day is going. They
           are fast, long-lasting, work with every phone, and they are reusable
