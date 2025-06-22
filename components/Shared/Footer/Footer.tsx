@@ -26,10 +26,10 @@ const Footer = () => {
               info@powerup.eu.com
             </button>
             <div className="flex items-center gap-3 lg:absolute left-4">
-              <a href="https://www.facebook.com/powerup.eu.com">
+              <a target="_blank" href="https://www.instagram.com/powerup_pl?igsh=MWkzZ2FnY2x5enUzeg%3D%3D">
               <TbBrandInstagramFilled size={24} />
               </a>
-              <a href="https://www.facebook.com/powerup.eu.com">
+              <a target="_blank" href="https://www.linkedin.com/company/powerupeurope/about/">
                 <FaLinkedinIn size={24} />
               </a>
               <a href="https://www.instagram.com/powerup.eu.com">
