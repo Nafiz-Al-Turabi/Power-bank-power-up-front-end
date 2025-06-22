@@ -39,8 +39,8 @@ const BecomePartner = () => {
         {/* Right: Card */}
         <div className="flex-1 max-w-[554px] flex items-center justify-center lg:px-8">
           <div className="bg-white rounded-3xl  shadow-md py-10 px-4 lg:py-[70px] lg:px-10 w-full flex flex-col ">
-            <h2 className="text-[1.375rem] sm:text-4xl lg:text-5xl font-bold text-center mb-4 title-font ">
-              Want to install station at your place?
+            <h2 className="text-[1.375rem] sm:text-4xl lg:text-5xl font-bold text-center mb-4 title-font">
+              Want to install station <br className="md:hidden" /> at your place?
             </h2>
             <p className="text-gray-500 text-center mb-6 px-[25px] md:px-0">
               Ever had someone ask to charge their phone? Now you got power for

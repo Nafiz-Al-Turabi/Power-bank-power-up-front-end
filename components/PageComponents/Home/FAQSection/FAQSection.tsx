@@ -63,7 +63,7 @@ const  FAQSection = () => {
           up.
         </p>
       </div>
-      <div className="max-w-[1120px] mx-auto py-10 px-4  md:px-20 md:pb-10 md:p-15  text-white bg-[#000] rounded-[30px] mt-15 md:mt-20 relative z-10 ">
+      <div className="max-w-[1120px] mx-auto py-10 px-6 md:px-20 md:pb-10 md:p-15  text-white bg-[#000] rounded-[30px] mt-15 md:mt-20 relative z-10 ">
         {faqs.map((faq, idx) => (
           <div key={idx} className={`${idx === 6 ? "border-[#333333]" : "border-b border-[#333333]"}`}>
             <button
