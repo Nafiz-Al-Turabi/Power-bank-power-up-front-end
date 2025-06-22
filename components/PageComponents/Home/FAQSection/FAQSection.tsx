@@ -67,7 +67,7 @@ const  FAQSection = () => {
         {faqs.map((faq, idx) => (
           <div key={idx} className={`${idx === 6 ? "border-[#333333]" : "border-b border-[#333333]"}`}>
             <button
-              className="w-full flex justify-between items-center pt-4 pb-4 focus:outline-none"
+              className="w-full flex justify-between items-center pt-4 pb-4 focus:outline-none px-4 md:px-0"
               onClick={() => toggleFAQ(idx)}
             >
               <span className="text-lg md:text-xl font-semibold text-left">
@@ -89,7 +89,7 @@ const  FAQSection = () => {
               }`}
             >
               {faq.answer && (
-                <p className="text-base md:text-lg text-[#dedede] pr-6 md:pr-8 ">
+                <p className="text-base md:text-lg text-[#dedede] pr-6 md:pr-8 px-4 md:px-0 ">
                   {faq.answer.split("\n").map((line, i) => (
                     <span key={i}>
                       {line}

@@ -55,7 +55,7 @@ const BecomePartner = () => {
                   })}
                   type="text"
                   placeholder="Name of the company"
-                  className="w-full px-4 py-3 bg-[#f6f6f6] rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                  className="w-full px-7 py-3 bg-[#f6f6f6] rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                 />
                 {errors.companyName && (
                   <p className="text-red-500 text-sm mt-1">
@@ -74,7 +74,7 @@ const BecomePartner = () => {
                   })}
                   type="text"
                   placeholder="Contact Number"
-                  className="w-full px-4 py-3 bg-[#f6f6f6] border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+                  className="w-full px-7 py-3 bg-[#f6f6f6] border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                 />
                 {errors.contactNumber && (
                   <p className="text-red-500 text-sm mt-1">
