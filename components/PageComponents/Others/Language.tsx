@@ -32,10 +32,13 @@ const Language = () => {
       }
     };
 
-    // Check if Google Translate is loaded
+    // Check if Google Translate is loaded and initialized
     const checkGoogleTranslate = () => {
       if (window.google && window.google.translate) {
-        setIsLoaded(true);
+        // Wait a bit more for the translate element to be fully initialized
+        setTimeout(() => {
+          setIsLoaded(true);
+        }, 500);
       } else {
         setTimeout(checkGoogleTranslate, 100);
       }
@@ -49,12 +52,54 @@ const Language = () => {
 
   const changeLanguage = (languageCode: string) => {
     const tryTranslate = () => {
-      const select = document.querySelector(".goog-te-combo") as HTMLSelectElement;
-      if (select) {
-        select.value = languageCode;
-        select.dispatchEvent(new Event("change"));
-      } else {
+      // First check if Google Translate is loaded
+      if (!window.google || !window.google.translate) {
         setTimeout(tryTranslate, 100);
+        return;
+      }
+
+      // Wait for the translate element to be fully initialized
+      const translateElement = document.querySelector('#google_translate_element');
+      if (!translateElement) {
+        setTimeout(tryTranslate, 100);
+        return;
+      }
+
+      // Try to find the Google Translate select element
+      let select = document.querySelector(".goog-te-combo") as HTMLSelectElement;
+      
+      // If not found, try to find it in iframes
+      if (!select) {
+        const iframes = document.querySelectorAll('iframe');
+        for (const iframe of iframes) {
+          try {
+            if (iframe.contentDocument) {
+              const iframeSelect = iframe.contentDocument.querySelector("select") as HTMLSelectElement;
+              if (iframeSelect && iframeSelect.options.length > 0) {
+                select = iframeSelect;
+                break;
+              }
+            }
+          } catch (e) {
+            // Cross-origin iframe, skip
+          }
+        }
+      }
+
+      if (select) {
+        // Set the value and trigger change
+        select.value = languageCode;
+        select.dispatchEvent(new Event("change", { bubbles: true }));
+        
+        // Also try to trigger the click event on the option
+        const option = select.querySelector(`option[value="${languageCode}"]`) as HTMLOptionElement;
+        if (option) {
+          option.selected = true;
+          select.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+      } else {
+        // If still not found, try again after a delay
+        setTimeout(tryTranslate, 200);
       }
     };
   
@@ -66,6 +111,13 @@ const Language = () => {
   );
 
   const handleLanguageSelect = (lang: typeof languages[0]) => {
+    if (!isLoaded) {
+      // If Google Translate is not loaded yet, just update the visual state
+      setSelectedLang(lang.label);
+      setIsOpen(false);
+      return;
+    }
+    
     setSelectedLang(lang.label);
     setIsOpen(false);
     changeLanguage(lang.code); 
@@ -75,7 +127,12 @@ const Language = () => {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 px-3 py-2 rounded-full bg-[#18131b] hover:bg-[#353535] text-white cursor-pointer"
+        className={`flex items-center space-x-2 px-3 py-2 rounded-full ${
+          isLoaded 
+            ? "bg-[#18131b] hover:bg-[#353535]" 
+            : "bg-gray-400 cursor-not-allowed"
+        } text-white`}
+        disabled={!isLoaded}
       >
         {selectedLanguage && (
           <Image
@@ -87,15 +144,26 @@ const Language = () => {
           />
         )}
         <span>{selectedLang}</span>
+        {!isLoaded && (
+          <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+        )}
       </button>
 
       {isOpen && (
         <div className="absolute top-full left-0 mt-1 bg-white rounded-md shadow-lg border border-gray-200">
+          {!isLoaded && (
+            <div className="px-2 py-1 text-xs text-gray-500 border-b border-gray-100">
+              Loading translator...
+            </div>
+          )}
           {languages.map((lang) => (
             <button
               key={lang.label}
               onClick={() => handleLanguageSelect(lang)}
-              className="flex items-center space-x-2 w-32 px-2 py-2 hover:bg-gray-100 cursor-pointer notranslate"
+              className={`flex items-center space-x-2 w-32 px-2 py-2 hover:bg-gray-100 cursor-pointer notranslate ${
+                !isLoaded ? "opacity-50" : ""
+              }`}
+              disabled={!isLoaded}
             >
               <Image
                 src={lang.image}
