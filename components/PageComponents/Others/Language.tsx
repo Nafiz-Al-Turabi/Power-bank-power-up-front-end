@@ -32,12 +32,26 @@ const Language = () => {
       }
     };
 
+    // Load saved language from localStorage
+    const savedLang = localStorage.getItem("selectedLanguage");
+    if (savedLang) {
+      setSelectedLang(savedLang);
+    }
+
     // Check if Google Translate is loaded and initialized
     const checkGoogleTranslate = () => {
       if (window.google && window.google.translate) {
         // Wait a bit more for the translate element to be fully initialized
         setTimeout(() => {
           setIsLoaded(true);
+          
+          // If we have a saved language, apply it to Google Translate
+          if (savedLang) {
+            const language = languages.find(lang => lang.label === savedLang);
+            if (language) {
+              changeLanguage(language.code);
+            }
+          }
         }, 500);
       } else {
         setTimeout(checkGoogleTranslate, 100);
@@ -112,13 +126,15 @@ const Language = () => {
 
   const handleLanguageSelect = (lang: typeof languages[0]) => {
     if (!isLoaded) {
-      // If Google Translate is not loaded yet, just update the visual state
+      // If Google Translate is not loaded yet, just update the visual state and localStorage
       setSelectedLang(lang.label);
+      localStorage.setItem("selectedLanguage", lang.label);
       setIsOpen(false);
       return;
     }
     
     setSelectedLang(lang.label);
+    localStorage.setItem("selectedLanguage", lang.label);
     setIsOpen(false);
     changeLanguage(lang.code); 
   };
