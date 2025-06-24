@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import uk from "@/public/uk.jpg";
+import poland from "@/public/poland.png";
 
 declare global {
   interface Window {
@@ -18,8 +20,8 @@ const Language = () => {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = [
-    { label: "EN", image: "/uk.jpg", code: "en" },
-    { label: "PL", image: "/poland.png", code: "pl" },
+    { label: "EN", image: uk, code: "en" },
+    { label: "PL", image: poland, code: "pl" },
   ];
 
   useEffect(() => {
