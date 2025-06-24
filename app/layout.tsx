@@ -33,7 +33,7 @@ export default function RootLayout({
         <Script
           id="google-translate-init"
           strategy="afterInteractive"
-        >
+        > 
           {`
             function googleTranslateElementInit() {
               new google.translate.TranslateElement({

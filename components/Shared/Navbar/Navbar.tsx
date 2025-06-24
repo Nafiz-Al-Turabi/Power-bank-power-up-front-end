@@ -12,7 +12,7 @@ const navLinks = [
   { label: "How does it work", href: "#how-does-it-work" },
   { label: "Pricing", href: "#pricing" },
   { label: "Become a partner", href: "#become-a-partner" },
-  { label: "FAQ", href: "#faq" },
+  { label: "FAQ", href: "#faq" ,translate:false},
 ];
 
 const Navbar = () => {
@@ -97,7 +97,7 @@ const Navbar = () => {
                   key={link.label}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`text-black text-base transition font-medium ${
+                  className={`text-black text-base transition font-medium  ${link.translate === false ? "notranslate" : ""} ${
                     activeSection === link.href.substring(1)
                       ? "text-green-600"
                       : "hover:text-green-600"

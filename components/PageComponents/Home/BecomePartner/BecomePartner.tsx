@@ -6,7 +6,7 @@ import Image from "next/image";
 
 interface FormData {
   companyName: string;
-  contactNumber: string;
+  email: string;
 }
 
 const BecomePartner = () => {
@@ -65,20 +65,20 @@ const BecomePartner = () => {
               </div>
               <div className="mb-6">
                 <input
-                  {...register("contactNumber", {
-                    required: "Contact number is required",
+                  {...register("email", {
+                    required: "Email is required",
                     pattern: {
-                      value: /^[0-9]+$/,
-                      message: "Please enter a valid phone number",
+                      value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                      message: "Please enter a valid email address",
                     },
                   })}
                   type="text"
-                  placeholder="Contact Number"
+                  placeholder="Contact email"
                   className="w-full px-7 py-3 bg-[#f6f6f6] border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                 />
-                {errors.contactNumber && (
+                {errors.email && (
                   <p className="text-red-500 text-sm mt-1">
-                    {errors.contactNumber.message}
+                    {errors.email.message}
                   </p>
                 )}
               </div>
