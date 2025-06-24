@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import image from "@/public/BecomePartner.png";
+import image from "@/public/BecomePartner1.png";
 import Image from "next/image";
 
 interface FormData {
