@@ -159,7 +159,7 @@ const Language = () => {
             className="rounded-full w-5 h-5"
           />
         )}
-        <span>{selectedLang}</span>
+        <span className="notranslate">{selectedLang}</span>
         {!isLoaded && (
           <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
         )}
