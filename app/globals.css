@@ -19,6 +19,33 @@
   }
 } */
 
+/* HIDE THE GOOGLE TRANSLATE TOP BAR COMPLETELY */
+.goog-te-banner-frame.skiptranslate,
+body > .skiptranslate,
+.goog-te-gadget-icon,
+.goog-tooltip,
+.goog-tooltip:hover,
+.goog-text-highlight,
+.goog-te-balloon-frame {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  border: none !important;
+}
+
+/* Prevent Google from pushing your layout */
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+/* Prevent translation of specific elements */
+.notranslate {
+  translate: no !important;
+}
+
+
 @font-face {
   font-family: 'Quicksand';
   src: url('/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
@@ -34,8 +61,13 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Quicksand', sans-serif;
+  top: 0px !important;
 }
 
 .title-font{
   font-family: 'Montserrat', sans-serif;
+}
+
+.notranslate {
+  translate: no;
 }
