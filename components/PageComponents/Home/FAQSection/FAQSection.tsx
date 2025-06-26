@@ -6,7 +6,7 @@ const faqs = [
   {
     question: "How much does it cost?",
     answer:
-      "5 PLN per hour. \n 10 PLN for 3 hours. \n 15 PLN for the whole day.",
+      "7 PLN per hour. \n 15 PLN for the whole day.",
   },
   {
     question: "How to use?",

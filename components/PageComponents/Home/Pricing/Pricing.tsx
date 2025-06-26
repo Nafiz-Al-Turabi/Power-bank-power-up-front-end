@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface PricingCardProps {
@@ -11,9 +12,9 @@ const PricingCard: React.FC<PricingCardProps> = ({
   duration,
   description,
 }) => (
-  <div className="bg-white border-2 border-[#6A0DAD] rounded-2xl p-4 flex justify-center items-center h-[200px]">
+  <div className="bg-white border-2 border-[#6A0DAD] rounded-[30px] p-4 flex justify-center items-center h-[200px] lg:h-auto ">
     <div className="text-center">
-      <h1 className="font-bold mb-4">
+      <h1 className="font-bold mb-1">
         <span className="text-[28px]">{price} pln</span>/{" "}
         <span className="text-xl">{duration}</span>
       </h1>
@@ -23,20 +24,16 @@ const PricingCard: React.FC<PricingCardProps> = ({
 );
 
 const pricingPlans = [
+ 
   {
-    price: 5,
-    duration: "hour",
-    description: "The price for an hour.",
-  },
-  {
-    price: 10,
-    duration: "3 hours",
+    price: 7,
+    duration: "hours",
     description: "The price for an hour.",
   },
   {
     price: 15,
     duration: "day",
-    description: "The price for an hour.",
+    description: "Price for the whole day.",
   },
 ];
 
@@ -55,17 +52,28 @@ const Pricing: React.FC = () => {
           </p>
         </div>
         <div className="py-15 md:py-20 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-            {pricingPlans.map((plan, index) => (
-              <PricingCard
-                key={index}
-                price={plan.price}
-                duration={plan.duration}
-                description={plan.description}
+          <div className="flex flex-col md:flex-row gap-4">
+            <div className="hidden lg:block lg:w-[60%] ">
+              <Image
+                src="/pricing-image.png"
+                alt="Pricing"
+                width={554}
+                height={554}
+                className="w-full h-full object-cover object-center rounded-[30px]"
               />
-            ))}
+            </div>
+            <div className=" grid grid-cols-1 gap-4 lg:w-[40%] ">
+              {pricingPlans.map((plan, index) => (
+                <PricingCard
+                  key={index}
+                  price={plan.price}
+                  duration={plan.duration}
+                  description={plan.description}
+                />
+              ))}
+            </div>
           </div>
-          <p className="mt-3 text-sm leading-[20px] ">
+          <p className="mt-4 md:mt-6 text-sm leading-[20px] ">
             *** Please note that you can only rent one power bank at a time.
           </p>
         </div>
