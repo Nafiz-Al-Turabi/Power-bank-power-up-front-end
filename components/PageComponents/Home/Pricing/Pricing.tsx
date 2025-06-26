@@ -53,7 +53,7 @@ const Pricing: React.FC = () => {
         </div>
         <div className="py-15 md:py-20 lg:px-8">
           <div className="flex flex-col md:flex-row gap-4">
-            <div className="hidden lg:block lg:w-[60%] ">
+            <div className="hidden md:block md:w-[60%] ">
               <Image
                 src="/pricing-image.png"
                 alt="Pricing"
@@ -62,7 +62,7 @@ const Pricing: React.FC = () => {
                 className="w-full h-full object-cover object-center rounded-[30px]"
               />
             </div>
-            <div className=" grid grid-cols-1 gap-4 lg:w-[40%] ">
+            <div className=" grid grid-cols-1 gap-4 md:w-[40%] ">
               {pricingPlans.map((plan, index) => (
                 <PricingCard
                   key={index}
