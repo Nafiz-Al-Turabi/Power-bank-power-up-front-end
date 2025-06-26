@@ -21,6 +21,13 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
+  const handleWhatsAppContact = () => {
+    const phoneNumber = "+48696696920";
+    const message = "Hello! I'd like to get in touch with PowerUp.";
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
@@ -111,7 +118,10 @@ const Navbar = () => {
 
           <div className="hidden lg:flex items-center space-x-4">
             <Language />
-            <button className="bg-[#141313] text-white rounded-full px-6 py-2 font-medium hover:bg-[#353535] transition cursor-pointer">
+            <button 
+              onClick={handleWhatsAppContact}
+              className="bg-[#141313] text-white rounded-full px-6 py-2 font-medium hover:bg-[#353535] transition cursor-pointer"
+            >
               Contact us
             </button>
           </div>
@@ -161,7 +171,10 @@ const Navbar = () => {
             )
           ))}
 
-          <button className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium">
+          <button 
+            onClick={handleWhatsAppContact}
+            className="w-full text-black bg-white rounded-full text-center px-4 py-2 hover:text-green-600 transition font-medium"
+          >
             Contact us
           </button>
         </div>

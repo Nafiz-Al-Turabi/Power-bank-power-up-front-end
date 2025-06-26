@@ -53,7 +53,7 @@ const Pricing: React.FC = () => {
         </div>
         <div className="py-15 md:py-20 lg:px-8">
           <div className="flex flex-col md:flex-row gap-4">
-            <div className="hidden md:block md:w-[60%] ">
+            <div className="hidden md:block md:w-[60%]">
               <Image
                 src="/pricing-image.png"
                 alt="Pricing"
